@@ -1,0 +1,117 @@
+﻿{
+  "TrainingTime": 600,
+  "Scenario": "Classification",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\peter\\Downloads\\archive\\Small_talk_FocusArea.csv",
+    "Delimiter": ";",
+    "DecimalMarker": ".",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Utterances",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      },
+      {
+        "ColumnName": "Focusarea",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 2
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 1,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.83862874214986893,
+        "RuntimeInSeconds": 13.607
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.834684903680456,
+        "RuntimeInSeconds": 1.595
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.83367886746315212,
+        "RuntimeInSeconds": 1.031
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LbfgsMaximumEntropyMulti",
+        "Score": 0.83367886746315212,
+        "RuntimeInSeconds": 1.278
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeOva",
+        "Score": 0.81330053687355386,
+        "RuntimeInSeconds": 2.579
+      }
+    ],
+    "Pipeline": {
+      "parameter": {
+        "0": {
+          "InputColumnName": "Utterances",
+          "OutputColumnName": "Utterances"
+        },
+        "1": {
+          "InputColumnNames": [
+            "Utterances"
+          ],
+          "OutputColumnName": "Features"
+        },
+        "2": {
+          "OutputColumnName": "Focusarea",
+          "InputColumnName": "Focusarea"
+        },
+        "3": {
+          "NumberOfLeaves": 4,
+          "MinimumExampleCountPerLeaf": 12,
+          "NumberOfTrees": 201,
+          "MaximumBinCountPerFeature": 206,
+          "FeatureFraction": 0.934975686826146,
+          "LearningRate": 0.99999977667298645,
+          "LabelColumnName": "Focusarea",
+          "FeatureColumnName": "Features"
+        },
+        "4": {
+          "OutputColumnName": "PredictedLabel",
+          "InputColumnName": "PredictedLabel"
+        }
+      },
+      "estimators": [
+        "FeaturizeText",
+        "Concatenate",
+        "MapValueToKey",
+        "FastTreeOva",
+        "MapKeyToValue"
+      ]
+    },
+    "MetricName": "MacroAccuracy"
+  },
+  "Type": "TrainingConfig",
+  "Version": 2
+}

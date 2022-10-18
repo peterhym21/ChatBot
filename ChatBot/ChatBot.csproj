@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.LightGbm" Version="1.7.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MLModelFocusArea3\MLModelFocusArea3.csproj" />
+    <ProjectReference Include="..\MLModelIntent2\MLModelIntent2.csproj" />
+  </ItemGroup>
+</Project>
