@@ -1,3 +1,6 @@
+using Blazorise;
+using Blazorise.Bootstrap;
+using Blazorise.Icons.FontAwesome;
 using ChatBotWeb.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
@@ -20,6 +23,12 @@ namespace ChatBotWeb
             builder.Services.AddScoped<NotificationService>();
             builder.Services.AddScoped<TooltipService>();
             builder.Services.AddScoped<ContextMenuService>();
+            builder.Services.AddBlazorise(options =>
+                                        {
+                                            options.Immediate = true;
+                                        })
+                                        .AddBootstrapProviders()
+                                        .AddFontAwesomeIcons();
 
 
             var app = builder.Build();

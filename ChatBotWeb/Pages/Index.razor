@@ -20,12 +20,14 @@
                 <RadzenCard>
                     <RadzenLabel Text="Intent: " />
                     <RadzenLabel Text="@predictionResultIntent.PredictedLabel" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalIntent">Was the Intent worng?</RadzenButton>
                 </RadzenCard>
             </div>
             <div class="col-6">
                 <RadzenCard>
                     <RadzenLabel Text="FocusArea: " />
                     <RadzenLabel Text="@predictionResultFocusarea.PredictedLabel" />
+                        <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalFocusArea">Was the FocusArea worng?</RadzenButton>
                 </RadzenCard>
             </div>
         </div>
@@ -33,7 +35,51 @@
 
 </div>
 
+
+
+<Modal @ref="modalIntent">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Add the corret Intent</ModalTitle>
+            <CloseButton />
+        </ModalHeader>
+        <ModalBody>
+            <Field>
+                <FieldLabel>Intent</FieldLabel>
+                <TextEdit Placeholder="Enter intent..." />
+            </Field>
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@ShowModalIntent">Close</Button>
+            <Button Color="Color.Primary" Clicked="@HideModalIntent">Save Changes</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+<Modal @ref="modalFocusArea">
+    <ModalContent Centered>
+        <ModalHeader>
+            <ModalTitle>Add the corret FocusArea</ModalTitle>
+            <CloseButton />
+        </ModalHeader>
+        <ModalBody>
+            <Field>
+                <FieldLabel>FocusArea</FieldLabel>
+                <TextEdit Placeholder="Enter focusArea..." />
+            </Field>
+
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@ShowModalFocusArea">Close</Button>
+            <Button Color="Color.Primary" Clicked="@HideModalFocusArea">Save Changes</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+
 @code {
+    private Modal modalIntent;
+    private Modal modalFocusArea;
     private string tekst = string.Empty;
     private MLModelIntent1.ModelOutput? predictionResultIntent;
     private MLModelFocusArea1.ModelOutput predictionResultFocusarea;
@@ -59,7 +105,11 @@
 
     }
 
+    private Task ShowModalIntent() => modalIntent.Show();
+    private Task HideModalIntent() => modalIntent.Hide();
 
+    private Task ShowModalFocusArea() => modalFocusArea.Show();
+    private Task HideModalFocusArea() => modalFocusArea.Hide();
 
 
 }
