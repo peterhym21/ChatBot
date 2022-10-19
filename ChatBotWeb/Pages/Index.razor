@@ -1,0 +1,27 @@
+﻿@page "/"
+@inject HttpClient _http
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>Yeet</h1>
+
+<RadzenTextArea @bind-Value="@tekst"/>
+<RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
+
+
+@code {
+    private string tekst = string.Empty;
+    const string IntentPort = "55586";
+    const string FocusArea = "55589";
+
+
+    private async Task GetIntentAndFocusArea()
+    {
+        var intent = await _http.PostAsJsonAsync(IntentPort, tekst);
+        var focusarea = await _http.PostAsJsonAsync(FocusArea, tekst);
+
+
+    }
+
+}

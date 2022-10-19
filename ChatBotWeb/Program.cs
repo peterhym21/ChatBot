@@ -1,8 +1,10 @@
-using ChatBot.Data;
+using ChatBotWeb.Data;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Radzen;
+using static System.Net.WebRequestMethods;
 
-namespace ChatBot
+namespace ChatBotWeb
 {
     public class Program
     {
@@ -14,6 +16,13 @@ namespace ChatBot
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddScoped<DialogService>();
+            builder.Services.AddScoped<NotificationService>();
+            builder.Services.AddScoped<TooltipService>();
+            builder.Services.AddScoped<ContextMenuService>();
+
+            builder.Services.AddScoped(x => new HttpClient { BaseAddress = new Uri("https://localhost:") });
+
 
             var app = builder.Build();
 

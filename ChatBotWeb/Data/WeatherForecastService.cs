@@ -1,4 +1,4 @@
-namespace ChatBot.Data
+namespace ChatBotWeb.Data
 {
     public class WeatherForecastService
     {
