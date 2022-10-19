@@ -1,27 +1,65 @@
 ﻿@page "/"
-@inject HttpClient _http
+@using MLModelFocusArea3
+@using MLModelIntent2
 
 
 <PageTitle>Index</PageTitle>
 
-<h1>Yeet</h1>
+<div class="row text-center">
+    <div class="col-6">
+        <RadzenTextArea @bind-Value="@tekst" />
+    </div>
+    <div class="col-6">
+        <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
+    </div>
 
-<RadzenTextArea @bind-Value="@tekst"/>
-<RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
+    @if (predictionResultFocusarea != null && predictionResultIntent != null)
+    {
+        <div class="row">
+            <div class="col-6">
+                <RadzenCard>
+                    <RadzenLabel Text="Intent: " />
+                    <RadzenLabel Text="@predictionResultIntent.PredictedLabel" />
+                </RadzenCard>
+            </div>
+            <div class="col-6">
+                <RadzenCard>
+                    <RadzenLabel Text="FocusArea: " />
+                    <RadzenLabel Text="@predictionResultFocusarea.PredictedLabel" />
+                </RadzenCard>
+            </div>
+        </div>
+    }
 
+</div>
 
 @code {
     private string tekst = string.Empty;
-    const string IntentPort = "55586";
-    const string FocusArea = "55589";
+    private MLModelIntent1.ModelOutput? predictionResultIntent;
+    private MLModelFocusArea1.ModelOutput predictionResultFocusarea;
 
 
     private async Task GetIntentAndFocusArea()
     {
-        var intent = await _http.PostAsJsonAsync(IntentPort, tekst);
-        var focusarea = await _http.PostAsJsonAsync(FocusArea, tekst);
+        MLModelIntent1.ModelInput sampleDataIntent = new MLModelIntent1.ModelInput()
+            {
+                Utterances = tekst,
+            };
 
+        // Make a single prediction on the sample data and print results
+        predictionResultIntent = MLModelIntent1.Predict(sampleDataIntent);
+
+        MLModelFocusArea1.ModelInput sampleDataFocusarea = new MLModelFocusArea1.ModelInput()
+            {
+                Utterances = tekst,
+            };
+
+        // Make a single prediction on the sample data and print results
+        predictionResultFocusarea = MLModelFocusArea1.Predict(sampleDataFocusarea);
 
     }
+
+
+
 
 }

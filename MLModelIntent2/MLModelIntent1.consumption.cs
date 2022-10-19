@@ -50,7 +50,8 @@ namespace MLModelIntent2
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("MLModelIntent1.zip");
+
+        private static string MLNetModelPath = "C:\\skole\\eux\\H5\\Machine_Learing\\ChatBot\\MLModelIntent2\\MLModelIntent1.zip";
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

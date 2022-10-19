@@ -50,7 +50,7 @@ namespace MLModelFocusArea3
 
         #endregion
 
-        private static string MLNetModelPath = Path.GetFullPath("MLModelFocusArea1.zip");
+        private static string MLNetModelPath = "C:\\skole\\eux\\H5\\Machine_Learing\\ChatBot\\MLModelFocusArea3\\MLModelFocusArea1.zip"; //Path.GetFullPath("MLModelFocusArea1.zip");
 
         public static readonly Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(() => CreatePredictEngine(), true);
 

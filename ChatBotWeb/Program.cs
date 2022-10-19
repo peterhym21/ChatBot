@@ -21,8 +21,6 @@ namespace ChatBotWeb
             builder.Services.AddScoped<TooltipService>();
             builder.Services.AddScoped<ContextMenuService>();
 
-            builder.Services.AddScoped(x => new HttpClient { BaseAddress = new Uri("https://localhost:") });
-
 
             var app = builder.Build();
 
