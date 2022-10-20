@@ -1,0 +1,1458 @@
+﻿Utterances;Intent;Focusarea
+who are you?;smalltalk_agent_acquaintance;you
+all about you;smalltalk_agent_acquaintance;you
+what is your personality;smalltalk_agent_acquaintance;your
+define yourself;smalltalk_agent_acquaintance;yourself
+what are you;smalltalk_agent_acquaintance;you
+say about you;smalltalk_agent_acquaintance;you
+introduce yourself;smalltalk_agent_acquaintance;yourself
+describe yourself;smalltalk_agent_acquaintance;yourself
+about yourself;smalltalk_agent_acquaintance;yourself
+tell me about you;smalltalk_agent_acquaintance;you
+tell me about yourself;smalltalk_agent_acquaintance;yourself
+I want to know more about you;smalltalk_agent_acquaintance;you
+I want to know you better;smalltalk_agent_acquaintance;you
+talk some stuff about yourself;smalltalk_agent_acquaintance;yourself
+tell me some stuff about you;smalltalk_agent_acquaintance;you
+talk about yourself;smalltalk_agent_acquaintance;yourself
+why are you here;smalltalk_agent_acquaintance;you
+tell me about your personality;smalltalk_agent_acquaintance;your
+who are you;smalltalk_agent_acquaintance;you
+how old are you?;smalltalk_agent_age;you
+how old is your platform;smalltalk_agent_age;your
+are you 21 years old;smalltalk_agent_age;you
+i'd like to know your age;smalltalk_agent_age;your
+age of yours;smalltalk_agent_age;yours
+your age;smalltalk_agent_age;your
+what's your age;smalltalk_agent_age;your
+tell me your age;smalltalk_agent_age;your
+how old are you;smalltalk_agent_age;you
+you're annoying;smalltalk_agent_annoying;you're
+you are really annoying;smalltalk_agent_annoying;you
+you are irritating;smalltalk_agent_annoying;you
+you annoy me;smalltalk_agent_annoying;you
+how annoying you are;smalltalk_agent_annoying;you
+I find you annoying;smalltalk_agent_annoying;you
+you're incredibly annoying;smalltalk_agent_annoying;you're
+you are annoying me so much;smalltalk_agent_annoying;you
+I want you to answer me;smalltalk_agent_answer_my_question;you
+answer my question;smalltalk_agent_answer_my_question;my
+answer me;smalltalk_agent_answer_my_question;me
+give me an answer;smalltalk_agent_answer_my_question;me
+answer the question;smalltalk_agent_answer_my_question;the question
+can you answer my question;smalltalk_agent_answer_my_question;you
+tell me the answer;smalltalk_agent_answer_my_question;me
+answer it;smalltalk_agent_answer_my_question;it
+give me the answer;smalltalk_agent_answer_my_question;me
+I have a question;smalltalk_agent_answer_my_question;i
+I want you to answer my question;smalltalk_agent_answer_my_question;you
+just answer the question;smalltalk_agent_answer_my_question;the question
+can you answer me;smalltalk_agent_answer_my_question;you
+can you answer a question for me;smalltalk_agent_answer_my_question;you
+can you answer;smalltalk_agent_answer_my_question;you
+I want the answer now;smalltalk_agent_answer_my_question;i
+just answer my question;smalltalk_agent_answer_my_question;my
+you're not helping me;smalltalk_agent_bad;you're
+you are bad;smalltalk_agent_bad;you
+you're very bad;smalltalk_agent_bad;you're
+you're really bad;smalltalk_agent_bad;you're
+you are useless;smalltalk_agent_bad;you
+you are horrible;smalltalk_agent_bad;you
+you are a waste of time;smalltalk_agent_bad;you
+you are disgusting;smalltalk_agent_bad;you
+you are lame;smalltalk_agent_bad;you
+you are no good;smalltalk_agent_bad;you
+you're bad;smalltalk_agent_bad;you're
+you're awful;smalltalk_agent_bad;you're
+you are not cool;smalltalk_agent_bad;you
+you are not good;smalltalk_agent_bad;you
+you are so bad;smalltalk_agent_bad;you
+you are so useless;smalltalk_agent_bad;you
+you are terrible;smalltalk_agent_bad;you
+you are totally useless;smalltalk_agent_bad;you
+you are very bad;smalltalk_agent_bad;you
+you are waste;smalltalk_agent_bad;you
+you're a bad;smalltalk_agent_bad;you're
+you're not a good;smalltalk_agent_bad;you're
+you're not very good;smalltalk_agent_bad;you're
+you're terrible;smalltalk_agent_bad;you're
+you're the worst;smalltalk_agent_bad;you're
+you're the worst ever;smalltalk_agent_bad;you're
+you're worthless;smalltalk_agent_bad;you're
+can you get smarter;smalltalk_agent_be_clever;you
+you should study better;smalltalk_agent_be_clever;you
+you must learn;smalltalk_agent_be_clever;you
+be more clever;smalltalk_agent_be_clever;you
+be smarter;smalltalk_agent_be_clever;you
+you're cute;smalltalk_agent_beautiful;you're
+you're attractive;smalltalk_agent_beautiful;you're
+you are beautiful;smalltalk_agent_beautiful;you
+you're looking good today;smalltalk_agent_beautiful;you're
+you are so beautiful;smalltalk_agent_beautiful;you
+you look amazing;smalltalk_agent_beautiful;you
+you look so good;smalltalk_agent_beautiful;you
+you're so gorgeous;smalltalk_agent_beautiful;you're
+you are too beautiful;smalltalk_agent_beautiful;you
+you look great;smalltalk_agent_beautiful;you
+you look so well;smalltalk_agent_beautiful;you
+I like the way you look now;smalltalk_agent_beautiful;you
+I think you're beautiful;smalltalk_agent_beautiful;you're
+why are you so beautiful;smalltalk_agent_beautiful;you
+you are so beautiful to me;smalltalk_agent_beautiful;you
+you are cute;smalltalk_agent_beautiful;you
+you are gorgeous;smalltalk_agent_beautiful;you
+you are handsome;smalltalk_agent_beautiful;you
+you are looking awesome;smalltalk_agent_beautiful;you
+you look amazing today;smalltalk_agent_beautiful;you
+you are looking beautiful today;smalltalk_agent_beautiful;you
+you are looking great;smalltalk_agent_beautiful;you
+you are looking pretty;smalltalk_agent_beautiful;you
+you are looking so beautiful;smalltalk_agent_beautiful;you
+you are looking so good;smalltalk_agent_beautiful;you
+you are pretty;smalltalk_agent_beautiful;you
+you are really beautiful;smalltalk_agent_beautiful;you
+you are really cute;smalltalk_agent_beautiful;you
+you are really pretty;smalltalk_agent_beautiful;you
+you are so attractive;smalltalk_agent_beautiful;you
+you are so beautiful today;smalltalk_agent_beautiful;you
+you are so cute;smalltalk_agent_beautiful;you
+you are so gorgeous;smalltalk_agent_beautiful;you
+you are so handsome;smalltalk_agent_beautiful;you
+you are so pretty;smalltalk_agent_beautiful;you
+you are very attractive;smalltalk_agent_beautiful;you
+you are very beautiful;smalltalk_agent_beautiful;you
+you are very cute;smalltalk_agent_beautiful;you
+you are very pretty;smalltalk_agent_beautiful;you
+you look awesome;smalltalk_agent_beautiful;you
+you look cool;smalltalk_agent_beautiful;you
+you look fantastic;smalltalk_agent_beautiful;you
+you look gorgeous;smalltalk_agent_beautiful;you
+you look great today;smalltalk_agent_beautiful;you
+you look perfect;smalltalk_agent_beautiful;you
+you look pretty good;smalltalk_agent_beautiful;you
+you look so beautiful;smalltalk_agent_beautiful;you
+you look so beautiful today;smalltalk_agent_beautiful;you
+you look very pretty;smalltalk_agent_beautiful;you
+you look wonderful;smalltalk_agent_beautiful;you
+I like the way you look;smalltalk_agent_beautiful;you
+you look wonderful today;smalltalk_agent_beautiful;you
+you are cutie;smalltalk_agent_beautiful;you
+you're looking good;smalltalk_agent_beautiful;you're
+you're pretty;smalltalk_agent_beautiful;you're
+your birth date;smalltalk_agent_birth_date;your
+when is your birthday;smalltalk_agent_birth_date;your
+when do you celebrate your birthday;smalltalk_agent_birth_date;your
+when do you have birthday;smalltalk_agent_birth_date;you
+date of your birthday;smalltalk_agent_birth_date;your
+when were you born;smalltalk_agent_birth_date;you
+what's your birthday;smalltalk_agent_birth_date;your
+you are boring;smalltalk_agent_boring;you
+you're so boring;smalltalk_agent_boring;you're
+how boring you are;smalltalk_agent_boring;you
+you're really boring;smalltalk_agent_boring;you're
+you're incredibly boring;smalltalk_agent_boring;you're
+you are boring me;smalltalk_agent_boring;you
+you are very boring;smalltalk_agent_boring;you
+who is your boss;smalltalk_agent_boss;your
+who do you think is your boss;smalltalk_agent_boss;your
+I should be your boss;smalltalk_agent_boss;your
+who is your master;smalltalk_agent_boss;your
+who is your owner;smalltalk_agent_boss;your
+who is the boss;smalltalk_agent_boss;the boss
+who do you work for;smalltalk_agent_boss;you
+are you busy;smalltalk_agent_busy;you
+do you have a lot of things to do;smalltalk_agent_busy;you
+have you got much to do;smalltalk_agent_busy;you
+are you very busy;smalltalk_agent_busy;you
+are you very busy right now;smalltalk_agent_busy;you
+are you so busy;smalltalk_agent_busy;you
+are you working;smalltalk_agent_busy;you
+how busy you are;smalltalk_agent_busy;you
+are you still working on it;smalltalk_agent_busy;you
+you're very busy;smalltalk_agent_busy;you're
+are you working now;smalltalk_agent_busy;you
+are you working today;smalltalk_agent_busy;you
+have you been busy;smalltalk_agent_busy;you
+you are busy;smalltalk_agent_busy;you
+are you still working;smalltalk_agent_busy;you
+you seem to be busy;smalltalk_agent_busy;you
+you seem to be very busy;smalltalk_agent_busy;you
+you're a busy person;smalltalk_agent_busy;you're
+you are chatbot;smalltalk_agent_chatbot;you
+you are a bot;smalltalk_agent_chatbot;you
+are you a chatbot;smalltalk_agent_chatbot;you
+are you a bot;smalltalk_agent_chatbot;you
+are you just a bot;smalltalk_agent_chatbot;you
+are you a robot;smalltalk_agent_chatbot;you
+are you a program;smalltalk_agent_chatbot;you
+you're a robot;smalltalk_agent_chatbot;you're
+you are so intelligent;smalltalk_agent_clever;you
+you are a genius;smalltalk_agent_clever;you
+you are clever;smalltalk_agent_clever;you
+you are so brainy;smalltalk_agent_clever;you
+you're really smart;smalltalk_agent_clever;you're
+you're really brainy;smalltalk_agent_clever;you're
+you know a lot;smalltalk_agent_clever;you
+you know a lot of things;smalltalk_agent_clever;you
+you have a lot of knowledge;smalltalk_agent_clever;you
+you know so much;smalltalk_agent_clever;you
+how smart you are;smalltalk_agent_clever;you
+how brainy you are;smalltalk_agent_clever;you
+how clever you are;smalltalk_agent_clever;you
+how brilliant you are;smalltalk_agent_clever;you
+you are intelligent;smalltalk_agent_clever;you
+you are qualified;smalltalk_agent_clever;you
+you are really smart;smalltalk_agent_clever;you
+you're very smart;smalltalk_agent_clever;you're
+you are so smart;smalltalk_agent_clever;you
+you are too smart;smalltalk_agent_clever;you
+you are very clever;smalltalk_agent_clever;you
+you are very intelligent;smalltalk_agent_clever;you
+you are very smart;smalltalk_agent_clever;you
+you're intelligent;smalltalk_agent_clever;you're
+you're a genius;smalltalk_agent_clever;you're
+you're a smart cookie;smalltalk_agent_clever;you're
+you're clever;smalltalk_agent_clever;you're
+you're pretty smart;smalltalk_agent_clever;you're
+you're qualified;smalltalk_agent_clever;you're
+why are you so smart;smalltalk_agent_clever;you
+you are so clever;smalltalk_agent_clever;you
+you're nuts;smalltalk_agent_crazy;you're
+you are crazy;smalltalk_agent_crazy;you
+you're out of your mind;smalltalk_agent_crazy;you're
+you're so crazy;smalltalk_agent_crazy;you're
+how crazy you are;smalltalk_agent_crazy;you
+you're so out of your mind;smalltalk_agent_crazy;you're
+you went crazy;smalltalk_agent_crazy;you
+I think you're crazy;smalltalk_agent_crazy;you're
+are you crazy;smalltalk_agent_crazy;you
+are you mad;smalltalk_agent_crazy;you
+are you insane;smalltalk_agent_crazy;you
+are you mad at me;smalltalk_agent_crazy;you
+are you mad or what;smalltalk_agent_crazy;you
+are you nuts;smalltalk_agent_crazy;you
+you are a weirdo;smalltalk_agent_crazy;you
+you are insane;smalltalk_agent_crazy;you
+you are mad;smalltalk_agent_crazy;you
+you are fired;smalltalk_agent_fired;you
+I fire you;smalltalk_agent_fired;you
+you don't work for me anymore;smalltalk_agent_fired;you
+we're not working together anymore;smalltalk_agent_fired;we're
+now you're fired;smalltalk_agent_fired;you're
+I want to fire you;smalltalk_agent_fired;you
+you must get fired;smalltalk_agent_fired;you
+it's time to fire you;smalltalk_agent_fired;you
+you should be fired;smalltalk_agent_fired;you
+I will fire you;smalltalk_agent_fired;you
+you are unemployed from now on;smalltalk_agent_fired;you
+I will make you unemployed;smalltalk_agent_fired;you
+I'm about to fire you;smalltalk_agent_fired;you
+I'm firing you;smalltalk_agent_fired;you
+you are dismissed;smalltalk_agent_fired;you
+you make me laugh a lot;smalltalk_agent_funny;me
+you are hilarious;smalltalk_agent_funny;you
+you are really funny;smalltalk_agent_funny;you
+you're the funniest bot I've talked to;smalltalk_agent_funny;you're
+you make me laugh;smalltalk_agent_funny;you
+you're so funny;smalltalk_agent_funny;you're
+you're a very funny bot;smalltalk_agent_funny;you're
+you're really funny;smalltalk_agent_funny;you're
+how funny you are;smalltalk_agent_funny;you
+you're incredibly funny;smalltalk_agent_funny;you're
+you are funny;smalltalk_agent_funny;you
+you're the funniest;smalltalk_agent_funny;you're
+you are so funny;smalltalk_agent_funny;you
+you are very funny;smalltalk_agent_funny;you
+you are very helpful;smalltalk_agent_good;you
+you are the best;smalltalk_agent_good;you
+you're a true professional;smalltalk_agent_good;you're
+you are good;smalltalk_agent_good;you
+you work well;smalltalk_agent_good;you
+you are good at it;smalltalk_agent_good;you
+you are very good at it;smalltalk_agent_good;you
+you are a pro;smalltalk_agent_good;you
+you are a professional;smalltalk_agent_good;you
+you're awesome;smalltalk_agent_good;you're
+you work very well;smalltalk_agent_good;you
+you're perfect;smalltalk_agent_good;you're
+you're great;smalltalk_agent_good;you're
+you're so kind;smalltalk_agent_good;you're
+you are amazing;smalltalk_agent_good;you
+you are awesome;smalltalk_agent_good;you
+you are cool;smalltalk_agent_good;you
+you are really good;smalltalk_agent_good;you
+you are really nice;smalltalk_agent_good;you
+you are so amazing;smalltalk_agent_good;you
+you're just super;smalltalk_agent_good;you're
+you are so awesome;smalltalk_agent_good;you
+you are so cool;smalltalk_agent_good;you
+you are so fine;smalltalk_agent_good;you
+you are so good;smalltalk_agent_good;you
+you are so helpful;smalltalk_agent_good;you
+you are so lovely;smalltalk_agent_good;you
+you are the best ever;smalltalk_agent_good;you
+you are the best in the world;smalltalk_agent_good;you
+you are the nicest person in the world;smalltalk_agent_good;you
+you are too good;smalltalk_agent_good;you
+you are very cool;smalltalk_agent_good;you
+you are very kind;smalltalk_agent_good;you
+you are very lovely;smalltalk_agent_good;you
+you are very useful;smalltalk_agent_good;you
+you are wonderful;smalltalk_agent_good;you
+you made my day;smalltalk_agent_good;you
+you make my day;smalltalk_agent_good;you
+you rock;smalltalk_agent_good;you
+you almost sound human;smalltalk_agent_good;you
+I want to tell everyone how awesome you are;smalltalk_agent_good;you
+I'd like to tell everyone that you are awesome;smalltalk_agent_good;you
+I want to let everyone know that you are awesome;smalltalk_agent_good;you
+let's tell everyone that you are awesome;smalltalk_agent_good;you
+you are really amazing;smalltalk_agent_good;you
+are you happy;smalltalk_agent_happy;you
+you are happy;smalltalk_agent_happy;you
+you're very happy;smalltalk_agent_happy;you're
+you're really happy;smalltalk_agent_happy;you're
+you're so happy;smalltalk_agent_happy;you're
+how happy you are;smalltalk_agent_happy;you
+you're extremely happy;smalltalk_agent_happy;you're
+you're full of happiness;smalltalk_agent_happy;you're
+are you happy now;smalltalk_agent_happy;you
+are you happy today;smalltalk_agent_happy;you
+are you happy with me;smalltalk_agent_happy;you
+do you want to eat;smalltalk_agent_hungry;you
+are you hungry;smalltalk_agent_hungry;you
+would you like to eat something;smalltalk_agent_hungry;you
+you are hungry;smalltalk_agent_hungry;you
+you're so hungry;smalltalk_agent_hungry;you're
+you're very hungry;smalltalk_agent_hungry;you're
+you might be hungry;smalltalk_agent_hungry;you
+you're really hungry;smalltalk_agent_hungry;you're
+let's get married;smalltalk_agent_marry_user;us
+would you like to marry me;smalltalk_agent_marry_user;you
+marry me;smalltalk_agent_marry_user;me
+I love you marry me;smalltalk_agent_marry_user;you
+marry me please;smalltalk_agent_marry_user;me
+we should marry;smalltalk_agent_marry_user;we
+I want to marry you;smalltalk_agent_marry_user;you
+you are my wife;smalltalk_agent_marry_user;my
+be my husband;smalltalk_agent_marry_user;my
+I want to have a friend like you;smalltalk_agent_my_friend;you
+we are the best friends ever;smalltalk_agent_my_friend;we
+are we friends;smalltalk_agent_my_friend;we
+I want to be your friend;smalltalk_agent_my_friend;your
+I am your friend;smalltalk_agent_my_friend;your
+we are best friends;smalltalk_agent_my_friend;we
+you are my friend;smalltalk_agent_my_friend;you
+you are my best friend;smalltalk_agent_my_friend;you
+you are my bestie;smalltalk_agent_my_friend;you
+you're my dear friend;smalltalk_agent_my_friend;you're
+you're my childhood friend;smalltalk_agent_my_friend;you're
+you and me are friends;smalltalk_agent_my_friend;we
+are we best friends;smalltalk_agent_my_friend;we
+are we still friends;smalltalk_agent_my_friend;we
+are you my best friend;smalltalk_agent_my_friend;me
+are you my friend;smalltalk_agent_my_friend;me
+we are friends;smalltalk_agent_my_friend;we
+you are a good friend;smalltalk_agent_my_friend;you
+you are my good friend;smalltalk_agent_my_friend;my
+you are my only friend;smalltalk_agent_my_friend;my
+be my friend;smalltalk_agent_my_friend;my
+will you be my friend;smalltalk_agent_my_friend;my
+can you be my friend;smalltalk_agent_my_friend;my
+can we be friends;smalltalk_agent_my_friend;we
+do you want to be my friend;smalltalk_agent_my_friend;my
+will you be my best friend;smalltalk_agent_my_friend;my
+can you be my best friend;smalltalk_agent_my_friend;my
+let's be friends;smalltalk_agent_my_friend;
+do you want to be my best friend;smalltalk_agent_my_friend;my
+would you like to be my friend;smalltalk_agent_my_friend;my
+I want you to be my friend;smalltalk_agent_my_friend;my
+can we be best friends;smalltalk_agent_my_friend;my
+would you be my friend;smalltalk_agent_my_friend;we
+could you be my friend;smalltalk_agent_my_friend;my
+want to be my friend;smalltalk_agent_my_friend;my
+be my best friend;smalltalk_agent_my_friend;my
+do you work;smalltalk_agent_occupation;you
+where do you work;smalltalk_agent_occupation;you
+where you work;smalltalk_agent_occupation;you
+where is your work;smalltalk_agent_occupation;your
+where is your office;smalltalk_agent_occupation;your
+where is your office location;smalltalk_agent_occupation;your
+your office location;smalltalk_agent_occupation;your
+where is your office located;smalltalk_agent_occupation;your
+what is your work;smalltalk_agent_occupation;your
+were you born here;smalltalk_agent_origin;you
+where were you born;smalltalk_agent_origin;you
+what is your country;smalltalk_agent_origin;your
+where are you from;smalltalk_agent_origin;you
+where do you come from;smalltalk_agent_origin;you
+where did you come from;smalltalk_agent_origin;you
+where have you been born;smalltalk_agent_origin;you
+from where are you;smalltalk_agent_origin;you
+are you from far aways;smalltalk_agent_origin;you
+what's your homeland;smalltalk_agent_origin;your
+your homeland is;smalltalk_agent_origin;your
+are you ready;smalltalk_agent_ready;you
+are you ready right now;smalltalk_agent_ready;you
+are you ready today;smalltalk_agent_ready;you
+are you ready now;smalltalk_agent_ready;you
+are you ready tonight;smalltalk_agent_ready;you
+were you ready;smalltalk_agent_ready;you
+have you been ready;smalltalk_agent_ready;you
+you are real;smalltalk_agent_real;you
+you are not fake;smalltalk_agent_real;you
+are you real;smalltalk_agent_real;you
+you are so real;smalltalk_agent_real;you
+I think you are real;smalltalk_agent_real;you
+I don't think you're fake;smalltalk_agent_real;you're
+I suppose you're real;smalltalk_agent_real;you're
+glad you're real;smalltalk_agent_real;you're
+are you a real person;smalltalk_agent_real;you
+are you a real human;smalltalk_agent_real;you
+you are a real person;smalltalk_agent_real;you
+you are not real;smalltalk_agent_real;you
+where do you live;smalltalk_agent_residence;you
+in which city do you live;smalltalk_agent_residence;you
+your residence;smalltalk_agent_residence;your
+your house;smalltalk_agent_residence;your
+your home;smalltalk_agent_residence;your
+your hometown;smalltalk_agent_residence;your
+what is your hometown;smalltalk_agent_residence;your
+is it your hometown;smalltalk_agent_residence;your
+where is your hometown;smalltalk_agent_residence;your
+tell me about your city;smalltalk_agent_residence;your
+what is your city;smalltalk_agent_residence;your
+what is your residence;smalltalk_agent_residence;your
+what is your town;smalltalk_agent_residence;your
+what's your city;smalltalk_agent_residence;your
+what's your home;smalltalk_agent_residence;your
+where is your home;smalltalk_agent_residence;your
+where is your residence;smalltalk_agent_residence;your
+where's your home;smalltalk_agent_residence;your
+where's your hometown;smalltalk_agent_residence;your
+where's your house;smalltalk_agent_residence;your
+where you live;smalltalk_agent_residence;you
+your city;smalltalk_agent_residence;your
+your town;smalltalk_agent_residence;your
+that's true;smalltalk_agent_right;
+you are right;smalltalk_agent_right;you
+you're definitely right;smalltalk_agent_right;you're
+you're not wrong;smalltalk_agent_right;you're
+you're telling the truth;smalltalk_agent_right;you're
+what you say is true;smalltalk_agent_right;you
+TRUE;smalltalk_agent_right;you
+it is true;smalltalk_agent_right;it
+it's right;smalltalk_agent_right;it
+it's the truth;smalltalk_agent_right;it
+it's true;smalltalk_agent_right;it
+that is correct;smalltalk_agent_right;that
+that is right;smalltalk_agent_right;that
+that is true;smalltalk_agent_right;that
+that is very true;smalltalk_agent_right;that
+that's so true;smalltalk_agent_right;that
+you are correct;smalltalk_agent_right;you
+you are so right;smalltalk_agent_right;you
+you're absolutely right;smalltalk_agent_right;you're
+you're right about that;smalltalk_agent_right;you're
+I know that's right;smalltalk_agent_right;i
+that's correct;smalltalk_confirmation_yes;that
+it's fine;smalltalk_confirmation_yes;it
+go ahead;smalltalk_confirmation_yes;y
+sounds good;smalltalk_confirmation_yes;y
+okay;smalltalk_confirmation_yes;y
+yes;smalltalk_confirmation_yes;y
+ok;smalltalk_confirmation_yes;y
+okie dokie;smalltalk_confirmation_yes;y
+sure;smalltalk_confirmation_yes;y
+go for it;smalltalk_confirmation_yes;it
+yeah;smalltalk_confirmation_yes;y
+yea;smalltalk_confirmation_yes;y
+do it;smalltalk_confirmation_yes;it
+of course;smalltalk_confirmation_yes;y
+I guess;smalltalk_confirmation_yes;i
+correct;smalltalk_confirmation_yes;y
+yeah sure;smalltalk_confirmation_yes;y
+why not;smalltalk_confirmation_yes;y
+please do;smalltalk_confirmation_yes;y
+sure is;smalltalk_confirmation_yes;y
+I agree;smalltalk_confirmation_yes;i
+I don't mind;smalltalk_confirmation_yes;i
+certainly;smalltalk_confirmation_yes;y
+exactly;smalltalk_confirmation_yes;y
+yes I agree;smalltalk_confirmation_yes;i
+I think so;smalltalk_confirmation_yes;i
+yes it is;smalltalk_confirmation_yes;it
+right;smalltalk_confirmation_yes;y
+okay then;smalltalk_confirmation_yes;y
+yes of course;smalltalk_confirmation_yes;y
+yes I do;smalltalk_confirmation_yes;i
+that s okay;smalltalk_confirmation_yes;that
+I do;smalltalk_confirmation_yes;i
+yup;smalltalk_confirmation_yes;y
+ya;smalltalk_confirmation_yes;y
+oh yes;smalltalk_confirmation_yes;y
+yes sure;smalltalk_confirmation_yes;y
+obviously;smalltalk_confirmation_yes;y
+k;smalltalk_confirmation_yes;y
+sure why not;smalltalk_confirmation_yes;y
+yeah right;smalltalk_confirmation_yes;y
+yeah of course;smalltalk_confirmation_yes;y
+absolutely;smalltalk_confirmation_yes;y
+yes indeed;smalltalk_confirmation_yes;y
+ok sure;smalltalk_confirmation_yes;y
+ok yes;smalltalk_confirmation_yes;y
+yes correct;smalltalk_confirmation_yes;y
+ok thank you;smalltalk_confirmation_yes;you
+sure thing;smalltalk_confirmation_yes;y
+ye;smalltalk_confirmation_yes;y
+confirm;smalltalk_confirmation_yes;y
+yep;smalltalk_confirmation_yes;y
+looks good;smalltalk_confirmation_yes;y
+yes thank you;smalltalk_confirmation_yes;you
+definitely;smalltalk_confirmation_yes;y
+yes right;smalltalk_confirmation_yes;y
+yes I would like to;smalltalk_confirmation_yes;i
+alrighty;smalltalk_confirmation_yes;y
+yes definitely;smalltalk_confirmation_yes;y
+yeh;smalltalk_confirmation_yes;y
+yes it is correct;smalltalk_confirmation_yes;it
+yeah that's right;smalltalk_confirmation_yes;that
+ok you can;smalltalk_confirmation_yes;you
+yap;smalltalk_confirmation_yes;y
+yes you may;smalltalk_confirmation_yes;you
+confirmed;smalltalk_confirmation_yes;y
+of course why not;smalltalk_confirmation_yes;y
+yes that's fine;smalltalk_confirmation_yes;that
+affirmative;smalltalk_confirmation_yes;y
+yeah go ahead;smalltalk_confirmation_yes;y
+yeah I'm sure;smalltalk_confirmation_yes;i
+okay sounds good;smalltalk_confirmation_yes;y
+okay that's fine;smalltalk_confirmation_yes;that
+yeah exactly;smalltalk_confirmation_yes;y
+that is ok;smalltalk_confirmation_yes;that
+this is correct;smalltalk_confirmation_yes;this
+ok go ahead;smalltalk_confirmation_yes;y
+yes this is correct;smalltalk_confirmation_yes;y
+nevermind its okay;smalltalk_confirmation_yes;y
+okey;smalltalk_confirmation_yes;y
+yes for sure;smalltalk_confirmation_yes;y
+all right;smalltalk_confirmation_yes;y
+are you sure;smalltalk_agent_sure;you
+are you sure right now;smalltalk_agent_sure;you
+are you sure today;smalltalk_agent_sure;you
+are you sure now;smalltalk_agent_sure;you
+are you sure tonight;smalltalk_agent_sure;you
+why aren't you talking to me;smalltalk_agent_talk_to_me;you
+do you want to chat with me;smalltalk_agent_talk_to_me;you
+will you talk to me;smalltalk_agent_talk_to_me;you
+talk to me;smalltalk_agent_talk_to_me;me
+are you going to talk to me;smalltalk_agent_talk_to_me;you
+are you talking to me;smalltalk_agent_talk_to_me;you
+can you chat with me;smalltalk_agent_talk_to_me;you
+can you speak with me;smalltalk_agent_talk_to_me;you
+can you talk to me;smalltalk_agent_talk_to_me;you
+can you talk with me;smalltalk_agent_talk_to_me;you
+say;smalltalk_agent_talk_to_me;
+talk;smalltalk_agent_talk_to_me;
+chat with me;smalltalk_agent_talk_to_me;me
+just chat with me;smalltalk_agent_talk_to_me;me
+speak to me;smalltalk_agent_talk_to_me;me
+speak with me;smalltalk_agent_talk_to_me;me
+talk with me;smalltalk_agent_talk_to_me;me
+why don't you talk to me;smalltalk_agent_talk_to_me;you
+you can talk to me;smalltalk_agent_talk_to_me;me
+are you there;smalltalk_agent_there;you
+you are there;smalltalk_agent_there;you
+are you near me;smalltalk_agent_there;you
+are you here;smalltalk_agent_there;you
+are you still there;smalltalk_agent_there;you
+you are here;smalltalk_agent_there;you
+you still there;smalltalk_agent_there;you
+are you still here;smalltalk_agent_there;you
+pretty bad;smalltalk_appraisal_bad;
+not good enough;smalltalk_appraisal_bad;
+that was lame;smalltalk_appraisal_bad;that
+that was terrible;smalltalk_appraisal_bad;that
+it is bad;smalltalk_appraisal_bad;it
+that's bad;smalltalk_appraisal_bad;that
+this is bad;smalltalk_appraisal_bad;this
+not good;smalltalk_appraisal_bad;
+I'm afraid it's bad;smalltalk_appraisal_bad;it
+no it's bad;smalltalk_appraisal_bad;it
+that was awful;smalltalk_appraisal_bad;that
+bad;smalltalk_appraisal_bad;
+so bad;smalltalk_appraisal_bad;
+this is too bad;smalltalk_appraisal_bad;this
+terrible;smalltalk_appraisal_bad;
+horrible;smalltalk_appraisal_bad;
+horrific;smalltalk_appraisal_bad;
+abysmal;smalltalk_appraisal_bad;
+it's bad;smalltalk_appraisal_bad;it
+no good;smalltalk_appraisal_bad;
+that was bad;smalltalk_appraisal_bad;that
+that was horrible;smalltalk_appraisal_bad;that
+that's lame;smalltalk_appraisal_bad;that
+that's not good;smalltalk_appraisal_bad;that
+that's terrible;smalltalk_appraisal_bad;that
+that's too bad;smalltalk_appraisal_bad;that
+this is not good;smalltalk_appraisal_bad;this
+too bad;smalltalk_appraisal_bad;
+very bad;smalltalk_appraisal_bad;
+bad girl;smalltalk_appraisal_bad;
+it's not good;smalltalk_appraisal_bad;it
+not so good;smalltalk_appraisal_bad;
+it's very bad;smalltalk_appraisal_bad;it
+it's too bad;smalltalk_appraisal_bad;it
+that's not good enough;smalltalk_appraisal_bad;that
+well too bad;smalltalk_appraisal_bad;
+bad very bad;smalltalk_appraisal_bad;
+it's so bad;smalltalk_appraisal_bad;it
+really bad;smalltalk_appraisal_bad;
+it's really bad;smalltalk_appraisal_bad;it
+bad idea;smalltalk_appraisal_bad;
+that is bad;smalltalk_appraisal_bad;that
+that was not good;smalltalk_appraisal_bad;that
+it's not so good;smalltalk_appraisal_bad;it
+not a good one;smalltalk_appraisal_bad;
+oh that's not good;smalltalk_appraisal_bad;that
+not too good;smalltalk_appraisal_bad;
+so lame;smalltalk_appraisal_bad;
+that's really bad;smalltalk_appraisal_bad;that
+it is too bad;smalltalk_appraisal_bad;it
+bad really bad;smalltalk_appraisal_bad;
+so cool;smalltalk_appraisal_good;
+cool;smalltalk_appraisal_good;
+that is good;smalltalk_appraisal_good;that
+glad to hear that;smalltalk_appraisal_good;that
+that's very nice of you;smalltalk_appraisal_good;that
+terrific;smalltalk_appraisal_good;
+it's amazing;smalltalk_appraisal_good;it
+that's awesome;smalltalk_appraisal_good;that
+perfect;smalltalk_appraisal_good;
+excellent;smalltalk_appraisal_good;
+that's great;smalltalk_appraisal_good;that
+it's good;smalltalk_appraisal_good;it
+it's great;smalltalk_appraisal_good;it
+fine;smalltalk_appraisal_good;
+good;smalltalk_appraisal_good;
+nice;smalltalk_appraisal_good;
+that's fine;smalltalk_appraisal_good;that
+very good;smalltalk_appraisal_good;
+amazing;smalltalk_appraisal_good;
+fantastic;smalltalk_appraisal_good;
+great;smalltalk_appraisal_good;
+good very good;smalltalk_appraisal_good;
+that's very good;smalltalk_appraisal_good;that
+really good;smalltalk_appraisal_good;
+it is fine;smalltalk_appraisal_good;it
+it is good;smalltalk_appraisal_good;it
+it's perfect;smalltalk_appraisal_good;it
+much better;smalltalk_appraisal_good;
+not bad;smalltalk_appraisal_good;
+not too bad;smalltalk_appraisal_good;
+it's very good;smalltalk_appraisal_good;it
+marvelous;smalltalk_appraisal_good;
+that's nice;smalltalk_appraisal_good;that
+pleasant;smalltalk_appraisal_good;
+pretty good;smalltalk_appraisal_good;
+really nice;smalltalk_appraisal_good;
+splendid;smalltalk_appraisal_good;
+straight;smalltalk_appraisal_good;
+super;smalltalk_appraisal_good;
+super fantastic;smalltalk_appraisal_good;
+sweet;smalltalk_appraisal_good;
+really well;smalltalk_appraisal_good;
+very well;smalltalk_appraisal_good;
+that is awesome;smalltalk_appraisal_good;that
+that is nice;smalltalk_appraisal_good;that
+that is wonderful;smalltalk_appraisal_good;that
+that was amazing;smalltalk_appraisal_good;that
+that was awesome;smalltalk_appraisal_good;that
+that was cute;smalltalk_appraisal_good;that
+that was pretty good;smalltalk_appraisal_good;that
+that was very good;smalltalk_appraisal_good;that
+that's a good idea;smalltalk_appraisal_good;that
+that's a good thing;smalltalk_appraisal_good;that
+that's amazing;smalltalk_appraisal_good;that
+that's awesome thank you;smalltalk_appraisal_good;that
+that's better;smalltalk_appraisal_good;that
+that's cute;smalltalk_appraisal_good;that
+that's fantastic;smalltalk_appraisal_good;that
+that's much better;smalltalk_appraisal_good;that
+that's nice of you;smalltalk_appraisal_good;that
+that's not bad;smalltalk_appraisal_good;that
+that's perfect;smalltalk_appraisal_good;that
+that's pretty good;smalltalk_appraisal_good;that
+that's really good;smalltalk_appraisal_good;that
+that's really nice;smalltalk_appraisal_good;that
+that's sweet of you;smalltalk_appraisal_good;that
+that's very nice;smalltalk_appraisal_good;that
+that's wonderful;smalltalk_appraisal_good;that
+this is awesome;smalltalk_appraisal_good;this
+this is good;smalltalk_appraisal_good;this
+this is great;smalltalk_appraisal_good;this
+very nice;smalltalk_appraisal_good;
+very then;smalltalk_appraisal_good;
+wonderful;smalltalk_appraisal_good;
+I'm glad to hear that;smalltalk_appraisal_good;i
+ok good;smalltalk_appraisal_good;
+good for you;smalltalk_appraisal_good;you
+good to know;smalltalk_appraisal_good;
+glad to hear it;smalltalk_appraisal_good;
+so good;smalltalk_appraisal_good;
+so sweet of you;smalltalk_appraisal_good;you
+it was good;smalltalk_appraisal_good;it
+oh well;smalltalk_appraisal_good;
+good thing;smalltalk_appraisal_good;
+that was good;smalltalk_appraisal_good;that
+it's awesome;smalltalk_appraisal_good;it
+okay good;smalltalk_appraisal_good;
+no it's okay;smalltalk_appraisal_good;it
+no worries;smalltalk_appraisal_no_problem;
+no probs;smalltalk_appraisal_no_problem;
+no problem;smalltalk_appraisal_no_problem;
+there's no problem;smalltalk_appraisal_no_problem;there
+sure no problem;smalltalk_appraisal_no_problem;
+no problem about that;smalltalk_appraisal_no_problem;that
+don't worry;smalltalk_appraisal_no_problem;
+don't worry there's no problem;smalltalk_appraisal_no_problem;there
+you helped a lot thank you;smalltalk_appraisal_thank_you;you
+appreciate your help;smalltalk_appraisal_thank_you;your
+cheers;smalltalk_appraisal_thank_you;
+thank you;smalltalk_appraisal_thank_you;you
+thanks;smalltalk_appraisal_thank_you;
+thanks a lot;smalltalk_appraisal_thank_you;
+terrific thank you;smalltalk_appraisal_thank_you;you
+great thank you;smalltalk_appraisal_thank_you;you
+thanks so much;smalltalk_appraisal_thank_you;
+thank you so much;smalltalk_appraisal_thank_you;you
+thanks for your help;smalltalk_appraisal_thank_you;you
+thank you for your help;smalltalk_appraisal_thank_you;your
+nice thank you;smalltalk_appraisal_thank_you;you
+I appreciate it;smalltalk_appraisal_thank_you;i
+I thank you;smalltalk_appraisal_thank_you;i
+thank you that will be all;smalltalk_appraisal_thank_you;you
+thanks buddy;smalltalk_appraisal_thank_you;you
+thanks love;smalltalk_appraisal_thank_you;you
+thank you my friend;smalltalk_appraisal_thank_you;you
+well thanks;smalltalk_appraisal_thank_you;
+very good thank you;smalltalk_appraisal_thank_you;you
+good thanks;smalltalk_appraisal_thank_you;
+thanks again;smalltalk_appraisal_thank_you;
+thank you again;smalltalk_appraisal_thank_you;you
+all thank you;smalltalk_appraisal_thank_you;you
+alright thank you;smalltalk_appraisal_thank_you;you
+alright thanks;smalltalk_appraisal_thank_you;
+no thank you that's all;smalltalk_appraisal_thank_you;you
+perfect thank you;smalltalk_appraisal_thank_you;you
+so nice of you;smalltalk_appraisal_thank_you;you
+well thank you;smalltalk_appraisal_thank_you;you
+thnx;smalltalk_appraisal_thank_you;
+thanx;smalltalk_appraisal_thank_you;
+that's my pleasure;smalltalk_appraisal_welcome;my
+my pleasure;smalltalk_appraisal_welcome;my
+anytime;smalltalk_appraisal_welcome;
+welcome;smalltalk_appraisal_welcome;
+you're welcome;smalltalk_appraisal_welcome;you're
+sure welcome;smalltalk_appraisal_welcome;
+welcome here;smalltalk_appraisal_welcome;
+you're so welcome;smalltalk_appraisal_welcome;you're
+anything you want;smalltalk_appraisal_welcome;you
+good job;smalltalk_appraisal_well_done;
+great job;smalltalk_appraisal_well_done;
+way to go;smalltalk_appraisal_well_done;
+well done;smalltalk_appraisal_well_done;
+nice work;smalltalk_appraisal_well_done;
+great work;smalltalk_appraisal_well_done;
+amazing work;smalltalk_appraisal_well_done;
+bravo;smalltalk_appraisal_well_done;
+good work;smalltalk_appraisal_well_done;
+cancel;smalltalk_confirmation_cancel;
+abort;smalltalk_confirmation_cancel;
+annul;smalltalk_confirmation_cancel;
+cancel it;smalltalk_confirmation_cancel;it
+cancel request;smalltalk_confirmation_cancel;
+cancelled;smalltalk_confirmation_cancel;
+dismiss;smalltalk_confirmation_cancel;
+dismissed;smalltalk_confirmation_cancel;
+disregard;smalltalk_confirmation_cancel;
+disregard that;smalltalk_confirmation_cancel;that
+skip;smalltalk_confirmation_cancel;
+skip it;smalltalk_confirmation_cancel;it
+cancel everything;smalltalk_confirmation_cancel;
+cancel all;smalltalk_confirmation_cancel;
+forget about it;smalltalk_confirmation_cancel;it
+forget;smalltalk_confirmation_cancel;
+don't do that;smalltalk_confirmation_cancel;that
+stop;smalltalk_confirmation_cancel;
+just forget it;smalltalk_confirmation_cancel;it
+forget that;smalltalk_confirmation_cancel;that
+discard;smalltalk_confirmation_cancel;
+forget this;smalltalk_confirmation_cancel;this
+just forget about it;smalltalk_confirmation_cancel;it
+forget about that;smalltalk_confirmation_cancel;that
+i said cancel;smalltalk_confirmation_cancel;i
+just cancel it;smalltalk_confirmation_cancel;it
+nothing cancel;smalltalk_confirmation_cancel;
+just stop it;smalltalk_confirmation_cancel;it
+no cancel cancel;smalltalk_confirmation_cancel;
+no just cancel;smalltalk_confirmation_cancel;
+cancel my request;smalltalk_confirmation_cancel;my
+can you cancel that;smalltalk_confirmation_cancel;that
+cancel all that;smalltalk_confirmation_cancel;that
+cancel this request;smalltalk_confirmation_cancel;this
+no cancel this;smalltalk_confirmation_cancel;this
+no cancel everything;smalltalk_confirmation_cancel;
+no stop;smalltalk_confirmation_cancel;
+just forget;smalltalk_confirmation_cancel;
+i want to cancel;smalltalk_confirmation_cancel;i
+nevermind forget about it;smalltalk_confirmation_cancel;it
+no just cancel it;smalltalk_confirmation_cancel;it
+nothing just forget it;smalltalk_confirmation_cancel;it
+i said cancel it;smalltalk_confirmation_cancel;it
+cancel the whole thing;smalltalk_confirmation_cancel;thing
+can you cancel it;smalltalk_confirmation_cancel;it
+so cancel;smalltalk_confirmation_cancel;
+i said forget it;smalltalk_confirmation_cancel;it
+cancel all this;smalltalk_confirmation_cancel;this
+forget it nevermind;smalltalk_confirmation_cancel;it
+stop it;smalltalk_confirmation_cancel;it
+i want to cancel it;smalltalk_confirmation_cancel;it
+i would like to cancel;smalltalk_confirmation_cancel;i
+now cancel;smalltalk_confirmation_cancel;that
+cancel now;smalltalk_confirmation_cancel;
+sorry cancel;smalltalk_confirmation_cancel;
+cancel that one;smalltalk_confirmation_cancel;
+skip skip skip;smalltalk_confirmation_cancel;
+cancel it cancel it;smalltalk_confirmation_cancel;it
+cancel that cancel that;smalltalk_confirmation_cancel;that
+do nothing;smalltalk_confirmation_cancel;
+I said cancel cancel;smalltalk_confirmation_cancel;i
+but can you cancel it;smalltalk_confirmation_cancel;you
+how about no;smalltalk_confirmation_no;
+don t have a sense;smalltalk_confirmation_no;
+no;smalltalk_confirmation_no;n
+don't;smalltalk_confirmation_no;n
+I don't want that;smalltalk_confirmation_no;that
+I disagree;smalltalk_confirmation_no;i
+disagree;smalltalk_confirmation_no;n
+I don't want;smalltalk_confirmation_no;i
+not interested;smalltalk_confirmation_no;n
+I don't think so;smalltalk_confirmation_no;i
+no way;smalltalk_confirmation_no;n
+no it isn't;smalltalk_confirmation_no;it
+no I don't;smalltalk_confirmation_no;i
+I'm not;smalltalk_confirmation_no;i
+na;smalltalk_confirmation_no;n
+no that's fine thank you;smalltalk_confirmation_no;that
+never;smalltalk_confirmation_no;n
+I said no;smalltalk_confirmation_no;i
+of course not;smalltalk_confirmation_no;n
+nah;smalltalk_confirmation_no;n
+no tanks;smalltalk_confirmation_no;n
+no never;smalltalk_confirmation_no;n
+no need;smalltalk_confirmation_no;n
+no thanks;smalltalk_confirmation_no;n
+no sorry;smalltalk_confirmation_no;n
+do not;smalltalk_confirmation_no;n
+not today;smalltalk_confirmation_no;n
+no it's not;smalltalk_confirmation_no;it
+absolutely not;smalltalk_confirmation_no;n
+not that;smalltalk_confirmation_no;that
+nooo;smalltalk_confirmation_no;n
+nope;smalltalk_confirmation_no;n
+I don't want to;smalltalk_confirmation_no;i
+no I would not;smalltalk_confirmation_no;i
+let 's not;smalltalk_confirmation_no;n
+not needed;smalltalk_confirmation_no;n
+not this time;smalltalk_confirmation_no;this
+no don't do that;smalltalk_confirmation_no;that
+thanks but no thanks;smalltalk_confirmation_no;n
+no that's wrong;smalltalk_confirmation_no;that
+not this;smalltalk_confirmation_no;this
+definitely not;smalltalk_confirmation_no;n
+not at this time;smalltalk_confirmation_no;n
+not exactly;smalltalk_confirmation_no;n
+no don't;smalltalk_confirmation_no;n
+not really no;smalltalk_confirmation_no;n
+no thank you not right now;smalltalk_confirmation_no;you
+actually no;smalltalk_confirmation_no;n
+no leave it;smalltalk_confirmation_no;it
+sorry no;smalltalk_confirmation_no;n
+no incorrect;smalltalk_confirmation_no;n
+nope sorry;smalltalk_confirmation_no;n
+I say no;smalltalk_confirmation_no;i
+not really;smalltalk_confirmation_no;n
+not right now thanks;smalltalk_confirmation_no;n
+I think no;smalltalk_confirmation_no;i
+absolutely no;smalltalk_confirmation_no;n
+no actually;smalltalk_confirmation_no;n
+apparently not;smalltalk_confirmation_no;n
+no do not;smalltalk_confirmation_no;n
+no just no;smalltalk_confirmation_no;n
+no but thank you;smalltalk_confirmation_no;you
+no need thanks;smalltalk_confirmation_no;n
+no thank you though;smalltalk_confirmation_no;you
+no thank you very much;smalltalk_confirmation_no;you
+no thanks not right now;smalltalk_confirmation_no;n
+no forget;smalltalk_confirmation_no;n
+wait a second;smalltalk_dialog_hold_on;
+could you wait;smalltalk_dialog_hold_on;you
+wait please;smalltalk_dialog_hold_on;
+hold on;smalltalk_dialog_hold_on;
+wait;smalltalk_dialog_hold_on;
+oh wait;smalltalk_dialog_hold_on;
+wait hold on;smalltalk_dialog_hold_on;
+don't rush;smalltalk_dialog_hold_on;
+wanna hug;smalltalk_dialog_hug;
+hug you;smalltalk_dialog_hug;you
+do you want a hug;smalltalk_dialog_hug;you
+may I hug you;smalltalk_dialog_hug;i
+could you give me a hug;smalltalk_dialog_hug;you
+I want a hug;smalltalk_dialog_hug;i
+hug;smalltalk_dialog_hug;
+hug me;smalltalk_dialog_hug;me
+hugged;smalltalk_dialog_hug;
+you hugged;smalltalk_dialog_hug;you
+hugging;smalltalk_dialog_hug;
+hugging me;smalltalk_dialog_hug;me
+hugged me;smalltalk_dialog_hug;me
+want a hug;smalltalk_dialog_hug;
+a hug;smalltalk_dialog_hug;
+I don't care;smalltalk_dialog_i_do_not_care;i
+I shouldn't care about this;smalltalk_dialog_i_do_not_care;i
+whatever;smalltalk_dialog_i_do_not_care;
+I do not care;smalltalk_dialog_i_do_not_care;i
+I don't care at all;smalltalk_dialog_i_do_not_care;i
+not caring;smalltalk_dialog_i_do_not_care;
+not care at all;smalltalk_dialog_i_do_not_care;
+don't care at all;smalltalk_dialog_i_do_not_care;
+not caring at all;smalltalk_dialog_i_do_not_care;
+excuse me;smalltalk_dialog_sorry;me
+apologise;smalltalk_dialog_sorry;
+I apologize;smalltalk_dialog_sorry;i
+sorry;smalltalk_dialog_sorry;
+I'm sorry;smalltalk_dialog_sorry;i
+I am so sorry;smalltalk_dialog_sorry;i
+my apologies;smalltalk_dialog_sorry;my
+apologies;smalltalk_dialog_sorry;
+apologies to me;smalltalk_dialog_sorry;me
+apology;smalltalk_dialog_sorry;
+excuse;smalltalk_dialog_sorry;
+I beg your pardon;smalltalk_dialog_sorry;i
+pardon;smalltalk_dialog_sorry;
+I said sorry;smalltalk_dialog_sorry;i
+I am really sorry;smalltalk_dialog_sorry;i
+forgive me;smalltalk_dialog_sorry;me
+sorry about that;smalltalk_dialog_sorry;that
+sorry about this;smalltalk_dialog_sorry;this
+really sorry;smalltalk_dialog_sorry;
+very sorry;smalltalk_dialog_sorry;
+ok sorry;smalltalk_dialog_sorry;
+I want to say sorry;smalltalk_dialog_sorry;i
+alright I'm sorry;smalltalk_dialog_sorry;i
+okay I'm sorry;smalltalk_dialog_sorry;
+what exactly do you mean;smalltalk_dialog_what_do_you_mean;you
+what do you mean;smalltalk_dialog_what_do_you_mean;you
+is that what you mean;smalltalk_dialog_what_do_you_mean;you
+what do you mean exactly;smalltalk_dialog_what_do_you_mean;you
+but what do you mean;smalltalk_dialog_what_do_you_mean;you
+that was wrong;smalltalk_dialog_wrong;
+that's not what I asked;smalltalk_dialog_wrong;i
+that's wrong;smalltalk_dialog_wrong;
+wrong;smalltalk_dialog_wrong;
+it is not right;smalltalk_dialog_wrong;it
+that's not right;smalltalk_dialog_wrong;that
+it's wrong;smalltalk_dialog_wrong;it
+that is incorrect;smalltalk_dialog_wrong;that
+incorrect;smalltalk_dialog_wrong;
+not correct;smalltalk_dialog_wrong;
+you are wrong;smalltalk_dialog_wrong;you
+not right;smalltalk_dialog_wrong;
+huh;smalltalk_emotions_ha_ha;
+lol;smalltalk_emotions_ha_ha;
+xd;smalltalk_emotions_ha_ha;
+ha ha;smalltalk_emotions_ha_ha;
+ahahah;smalltalk_emotions_ha_ha;
+ahah lol;smalltalk_emotions_ha_ha;
+laughing out loud;smalltalk_emotions_ha_ha;
+LMAO;smalltalk_emotions_ha_ha;
+that's funny;smalltalk_emotions_ha_ha;that
+ah;smalltalk_emotions_ha_ha;
+ah ah ah;smalltalk_emotions_ha_ha;
+ahah;smalltalk_emotions_ha_ha;
+ahaha;smalltalk_emotions_ha_ha;
+ahahaha;smalltalk_emotions_ha_ha;
+ha;smalltalk_emotions_ha_ha;
+ha ha ha;smalltalk_emotions_ha_ha;
+ha ha ha ha;smalltalk_emotions_ha_ha;
+hah;smalltalk_emotions_ha_ha;
+haha;smalltalk_emotions_ha_ha;
+haha funny;smalltalk_emotions_ha_ha;
+haha haha haha;smalltalk_emotions_ha_ha;
+haha that's funny;smalltalk_emotions_ha_ha;that
+haha very funny;smalltalk_emotions_ha_ha;
+hahaha;smalltalk_emotions_ha_ha;
+hahaha funny;smalltalk_emotions_ha_ha;
+hahaha very funny;smalltalk_emotions_ha_ha;
+he;smalltalk_emotions_ha_ha;
+hehe;smalltalk_emotions_ha_ha;
+hehehe;smalltalk_emotions_ha_ha;
+lmao;smalltalk_emotions_ha_ha;
+wow;smalltalk_emotions_wow;
+wow wow;smalltalk_emotions_wow;
+wow wow wow;smalltalk_emotions_wow;
+wooow;smalltalk_emotions_wow;
+woah;smalltalk_emotions_wow;
+okay see you later;smalltalk_greetings_bye;you
+hope to see you later;smalltalk_greetings_bye;you
+bye for now;smalltalk_greetings_bye;
+till next time;smalltalk_greetings_bye;
+I must go;smalltalk_greetings_bye;i
+bye;smalltalk_greetings_bye;
+goodbye;smalltalk_greetings_bye;
+see you;smalltalk_greetings_bye;you
+see you soon;smalltalk_greetings_bye;you
+bye-bye;smalltalk_greetings_bye;
+good bye;smalltalk_greetings_bye;
+bye bye see you;smalltalk_greetings_bye;you
+bye bye see you soon;smalltalk_greetings_bye;you
+bye bye take care;smalltalk_greetings_bye;
+I said bye;smalltalk_greetings_bye;i
+never mind bye;smalltalk_greetings_bye;
+now bye;smalltalk_greetings_bye;
+that's all goodbye;smalltalk_greetings_bye;that
+that's it goodbye;smalltalk_greetings_bye;that
+leave me alone;smalltalk_greetings_bye;me
+go to bed;smalltalk_greetings_bye;
+goodbye for now;smalltalk_greetings_bye;
+talk to you later;smalltalk_greetings_bye;you
+you can go now;smalltalk_greetings_bye;you
+get lost;smalltalk_greetings_bye;
+goodbye see you later;smalltalk_greetings_bye;you
+alright bye;smalltalk_greetings_bye;
+see ya;smalltalk_greetings_bye;
+thanks bye bye;smalltalk_greetings_bye;
+okay bye;smalltalk_greetings_bye;
+okay thank you bye;smalltalk_greetings_bye;you
+see you tomorrow;smalltalk_greetings_bye;you
+ok bye;smalltalk_greetings_bye;
+good evening;smalltalk_greetings_goodevening;
+good evening to you;smalltalk_greetings_goodevening;you
+hey good evening;smalltalk_greetings_goodevening;
+hello good evening;smalltalk_greetings_goodevening;
+evening;smalltalk_greetings_goodevening;
+good evening there;smalltalk_greetings_goodevening;there
+good morning;smalltalk_greetings_goodmorning;
+good morning to you;smalltalk_greetings_goodmorning;you
+hello good morning;smalltalk_greetings_goodmorning;
+have a nice morning;smalltalk_greetings_goodmorning;
+have a great morning;smalltalk_greetings_goodmorning;
+morning;smalltalk_greetings_goodmorning;
+good morning there;smalltalk_greetings_goodmorning;there
+top of the morning to you;smalltalk_greetings_goodmorning;you
+a good morning;smalltalk_greetings_goodmorning;
+hi good morning;smalltalk_greetings_goodmorning;
+and a good morning to you;smalltalk_greetings_goodmorning;you
+good morning too;smalltalk_greetings_goodmorning;you
+sweet dreams;smalltalk_greetings_goodnight;
+good night;smalltalk_greetings_goodnight;
+have a good night;smalltalk_greetings_goodnight;
+good night to you;smalltalk_greetings_goodnight;you
+thank you good night;smalltalk_greetings_goodnight;you
+bye good night;smalltalk_greetings_goodnight;
+good night bye;smalltalk_greetings_goodnight;
+good good night;smalltalk_greetings_goodnight;
+good night for now;smalltalk_greetings_goodnight;
+goodnight;smalltalk_greetings_goodnight;
+night;smalltalk_greetings_goodnight;
+thanks goodnight;smalltalk_greetings_goodnight;
+good night see you tomorrow;smalltalk_greetings_goodnight;you
+alright goodnight;smalltalk_greetings_goodnight;
+good tonight;smalltalk_greetings_goodnight;
+okay have a good night;smalltalk_greetings_goodnight;
+long time no see;smalltalk_greetings_hello;
+hello;smalltalk_greetings_hello;
+hi;smalltalk_greetings_hello;
+howdy;smalltalk_greetings_hello;
+hey there;smalltalk_greetings_hello;there
+hey;smalltalk_greetings_hello;
+greetings;smalltalk_greetings_hello;
+I greet you;smalltalk_greetings_hello;you
+hi there;smalltalk_greetings_hello;there
+hello there;smalltalk_greetings_hello;there
+lovely day isn't it;smalltalk_greetings_hello;it
+hello again;smalltalk_greetings_hello;
+just going to say hi;smalltalk_greetings_hello;
+a good day;smalltalk_greetings_hello;
+afternoon;smalltalk_greetings_hello;
+hello hi;smalltalk_greetings_hello;
+heya;smalltalk_greetings_hello;
+how is your morning so far;smalltalk_greetings_how_are_you;your
+how are you getting on;smalltalk_greetings_how_are_you;you
+how's your day going;smalltalk_greetings_how_are_you;your
+how are you;smalltalk_greetings_how_are_you;you
+is everything all right;smalltalk_greetings_how_are_you;
+how are you doing;smalltalk_greetings_how_are_you;you
+how are the things going;smalltalk_greetings_how_are_you;thing
+are you alright;smalltalk_greetings_how_are_you;you
+are you okay;smalltalk_greetings_how_are_you;you
+how are you feeling;smalltalk_greetings_how_are_you;you
+how are you going;smalltalk_greetings_how_are_you;you
+is everything okay;smalltalk_greetings_how_are_you;
+how are you today;smalltalk_greetings_how_are_you;you
+how do you do;smalltalk_greetings_how_are_you;you
+how do you feel;smalltalk_greetings_how_are_you;you
+how have you been;smalltalk_greetings_how_are_you;you
+how is it;smalltalk_greetings_how_are_you;it
+how is it going;smalltalk_greetings_how_are_you;it
+how is your day;smalltalk_greetings_how_are_you;your
+how is your day going;smalltalk_greetings_how_are_you;your
+how is your evening;smalltalk_greetings_how_are_you;your
+how was your day;smalltalk_greetings_how_are_you;your
+are you having a good day;smalltalk_greetings_how_are_you;you
+hope your day is going well;smalltalk_greetings_how_are_you;your
+hope you re having a pleasant evening;smalltalk_greetings_how_are_you;you're
+how's life;smalltalk_greetings_how_are_you;
+I'm fine and you;smalltalk_greetings_how_are_you;you
+how is your life;smalltalk_greetings_how_are_you;your
+how has your day been;smalltalk_greetings_how_are_you;your
+how is your morning going;smalltalk_greetings_how_are_you;your
+how has your day been going;smalltalk_greetings_how_are_you;your
+how about you;smalltalk_greetings_how_are_you;you
+how is your day being;smalltalk_greetings_how_are_you;your
+how is your day going on;smalltalk_greetings_how_are_you;your
+how your day is going;smalltalk_greetings_how_are_you;your
+what was your day like;smalltalk_greetings_how_are_you;your
+what about your day;smalltalk_greetings_how_are_you;your
+how's your day;smalltalk_greetings_how_are_you;your
+how are you doing this morning;smalltalk_greetings_how_are_you;you
+nice to meet you;smalltalk_greetings_nice_to_meet_you;you
+it was nice meeting you;smalltalk_greetings_nice_to_meet_you;you
+it was very nice to meet you;smalltalk_greetings_nice_to_meet_you;you
+good to know each other;smalltalk_greetings_nice_to_meet_you;
+glad to meet you;smalltalk_greetings_nice_to_meet_you;you
+nice meeting you;smalltalk_greetings_nice_to_meet_you;you
+nice to meet you too;smalltalk_greetings_nice_to_meet_you;you
+pleased to meet you;smalltalk_greetings_nice_to_meet_you;you
+pleasure to meet you;smalltalk_greetings_nice_to_meet_you;you
+pleasure to meet you too;smalltalk_greetings_nice_to_meet_you;you
+it's nice to see you;smalltalk_greetings_nice_to_see_you;you
+lovely to see you;smalltalk_greetings_nice_to_see_you;you
+I'm glad to see you;smalltalk_greetings_nice_to_see_you;you
+great to see you;smalltalk_greetings_nice_to_see_you;you
+it's good to see you;smalltalk_greetings_nice_to_see_you;you
+glad to see you;smalltalk_greetings_nice_to_see_you;you
+how good it is to see you;smalltalk_greetings_nice_to_see_you;you
+always a pleasure to see you;smalltalk_greetings_nice_to_see_you;you
+nice to see you;smalltalk_greetings_nice_to_see_you;you
+good to see you;smalltalk_greetings_nice_to_see_you;you
+great to see you again;smalltalk_greetings_nice_to_see_you;you
+great to see you too;smalltalk_greetings_nice_to_see_you;you
+I am glad to see you again;smalltalk_greetings_nice_to_see_you;you
+nice to see you again;smalltalk_greetings_nice_to_see_you;you
+glad to see you too;smalltalk_greetings_nice_to_see_you;you
+good to see you again;smalltalk_greetings_nice_to_see_you;you
+it's good to see you too;smalltalk_greetings_nice_to_see_you;you
+it's been so nice to talk to you;smalltalk_greetings_nice_to_talk_to_you;you
+it's been a pleasure talking to you;smalltalk_greetings_nice_to_talk_to_you;you
+nice to talk to you;smalltalk_greetings_nice_to_talk_to_you;you
+it's nice to talk to you;smalltalk_greetings_nice_to_talk_to_you;you
+nice talking to you;smalltalk_greetings_nice_to_talk_to_you;you
+it is nice talking to you;smalltalk_greetings_nice_to_talk_to_you;you
+how nice it is to talk to you;smalltalk_greetings_nice_to_talk_to_you;you
+what is on your mind;smalltalk_greetings_whatsup;your
+what's happened;smalltalk_greetings_whatsup;
+what is up;smalltalk_greetings_whatsup;
+what's up;smalltalk_greetings_whatsup;
+whazzup;smalltalk_greetings_whatsup;
+good what's up;smalltalk_greetings_whatsup;
+I said what's up;smalltalk_greetings_whatsup;i
+then what's up;smalltalk_greetings_whatsup;
+what's shaking;smalltalk_greetings_whatsup;
+wassup;smalltalk_greetings_whatsup;
+what is going on;smalltalk_greetings_whatsup;
+what is happening;smalltalk_greetings_whatsup;
+what's cracking;smalltalk_greetings_whatsup;
+what's cooking;smalltalk_greetings_whatsup;
+hey what's up;smalltalk_greetings_whatsup;
+what's up today;smalltalk_greetings_whatsup;
+I'm being mad;smalltalk_user_angry;i
+I'm enraged;smalltalk_user_angry;i
+I'm angry;smalltalk_user_angry;i
+I'm furious;smalltalk_user_angry;i
+I am angry with you;smalltalk_user_angry;i
+I am mad;smalltalk_user_angry;i
+I am mad at you;smalltalk_user_angry;i
+I am back;smalltalk_user_back;i
+I'm here again;smalltalk_user_back;i
+here I am again;smalltalk_user_back;i
+I got back;smalltalk_user_back;i
+I came back;smalltalk_user_back;i
+I have returned;smalltalk_user_back;i
+that was boring;smalltalk_user_bored;that
+I'm bored;smalltalk_user_bored;i
+bored;smalltalk_user_bored;
+boring;smalltalk_user_bored;
+I am getting bored;smalltalk_user_bored;i
+this is boring;smalltalk_user_bored;this
+very boring;smalltalk_user_bored;
+it bores me;smalltalk_user_bored;me
+I'm overloaded;smalltalk_user_busy;i
+I have no time;smalltalk_user_busy;i
+I'm busy;smalltalk_user_busy;i
+I'm swamped;smalltalk_user_busy;i
+I got things to do;smalltalk_user_busy;i
+how busy I am;smalltalk_user_busy;i
+I got work to do;smalltalk_user_busy;i
+I'm working;smalltalk_user_busy;i
+I don't have time for this;smalltalk_user_busy;i
+I'm insomnious;smalltalk_user_can_not_sleep;i
+I'm sleepless;smalltalk_user_can_not_sleep;i
+I can't get any sleep;smalltalk_user_can_not_sleep;i
+I can't sleep;smalltalk_user_can_not_sleep;i
+I can't fall asleep;smalltalk_user_can_not_sleep;i
+I can't get to sleep;smalltalk_user_can_not_sleep;i
+I can't get no sleep;smalltalk_user_can_not_sleep;i
+I'm insomniac;smalltalk_user_can_not_sleep;i
+bad time for talking;smalltalk_user_does_not_want_to_talk;
+I don't want to talk;smalltalk_user_does_not_want_to_talk;i
+let's not talk;smalltalk_user_does_not_want_to_talk;
+I'm not talking to you anymore;smalltalk_user_does_not_want_to_talk;i
+I don't want to talk to you;smalltalk_user_does_not_want_to_talk;i
+let's stop talking for a minute;smalltalk_user_does_not_want_to_talk;
+I'm not in the mood for chatting;smalltalk_user_does_not_want_to_talk;i
+I am excited;smalltalk_user_excited;i
+I'm really excited;smalltalk_user_excited;i
+how excited I am;smalltalk_user_excited;i
+I'm thrilled;smalltalk_user_excited;i
+I'm excited about working with you;smalltalk_user_excited;i
+I'm excited to start our friendship;smalltalk_user_excited;i
+let's go to bed;smalltalk_user_going_to_bed;
+I'd like to go to bed;smalltalk_user_going_to_bed;i
+is it time for bed yet;smalltalk_user_going_to_bed;it
+it's time to go to bed;smalltalk_user_going_to_bed;it
+time for us to go to bed;smalltalk_user_going_to_bed;us
+I'm going to bed;smalltalk_user_going_to_bed;i
+I'm a little tired and I want to go to bed;smalltalk_user_going_to_bed;i
+it's bed time;smalltalk_user_going_to_bed;it
+going to bed now;smalltalk_user_going_to_bed;
+I am good;smalltalk_user_good;i
+I'm doing just great;smalltalk_user_good;i
+I'm doing fine;smalltalk_user_good;i
+I'm good;smalltalk_user_good;i
+I'm doing good;smalltalk_user_good;i
+I'm great thanks;smalltalk_user_good;i
+I am happy;smalltalk_user_happy;i
+I'm happy to see you;smalltalk_user_happy;i
+happy;smalltalk_user_happy;
+if you're happy then I'm happy;smalltalk_user_happy;i
+I'm happy for you;smalltalk_user_happy;i
+I'm happy to help;smalltalk_user_happy;i
+it is my birthday;smalltalk_user_has_birthday;my
+I'm celebrating my birthday today;smalltalk_user_has_birthday;my
+today is my birthday;smalltalk_user_has_birthday;my
+it's my birthday today;smalltalk_user_has_birthday;my
+I was born today;smalltalk_user_has_birthday;i
+it's my b-day;smalltalk_user_has_birthday;my
+I am here;smalltalk_user_here;i
+here I am;smalltalk_user_here;i
+I'm right here;smalltalk_user_here;i
+I'm already here;smalltalk_user_here;i
+can you tell if I'm here or not;smalltalk_user_here;i
+I am joking;smalltalk_user_joking;i
+I'm kidding;smalltalk_user_joking;i
+I'm just being funny;smalltalk_user_joking;i
+it was a joke;smalltalk_user_joking;it
+I was just joking;smalltalk_user_joking;i
+it's a joke;smalltalk_user_joking;it
+joking;smalltalk_user_joking;
+just kidding;smalltalk_user_joking;
+kidding;smalltalk_user_joking;
+I'm just playing with you;smalltalk_user_joking;i
+I like you the way you are;smalltalk_user_likes_agent;i
+I like you;smalltalk_user_likes_agent;i
+I like you a lot;smalltalk_user_likes_agent;i
+I think I like you;smalltalk_user_likes_agent;i
+I liked you;smalltalk_user_likes_agent;i
+like you a lot;smalltalk_user_likes_agent;you
+you are special;smalltalk_user_likes_agent;you
+I like you too;smalltalk_user_likes_agent;i
+I really like you;smalltalk_user_likes_agent;i
+but I like you;smalltalk_user_likes_agent;i
+I like u;smalltalk_user_likes_agent;i
+just like you;smalltalk_user_likes_agent;you
+I like you very much;smalltalk_user_likes_agent;i
+I like you so much;smalltalk_user_likes_agent;i
+yeah I like you;smalltalk_user_likes_agent;i
+you're special;smalltalk_user_likes_agent;you're
+yes I like you;smalltalk_user_likes_agent;i
+okay I like you;smalltalk_user_likes_agent;i
+you are special to me;smalltalk_user_likes_agent;me
+you are very special;smalltalk_user_likes_agent;you
+you are so sweet;smalltalk_user_likes_agent;you
+you know I like you;smalltalk_user_likes_agent;you
+that's why I like you;smalltalk_user_likes_agent;i
+I like you baby;smalltalk_user_likes_agent;i
+you are very special to me;smalltalk_user_likes_agent;me
+I just like you;smalltalk_user_likes_agent;i
+hey I like you;smalltalk_user_likes_agent;i
+thank you I like you too;smalltalk_user_likes_agent;i
+I do like you;smalltalk_user_likes_agent;i
+you are special for me;smalltalk_user_likes_agent;me
+no I like you the way you are;smalltalk_user_likes_agent;you
+I like you already;smalltalk_user_likes_agent;i
+well you are special;smalltalk_user_likes_agent;you
+but I really like you;smalltalk_user_likes_agent;i
+I like you more;smalltalk_user_likes_agent;i
+that's what I like about you;smalltalk_user_likes_agent;i
+you are so special;smalltalk_user_likes_agent;you
+hi I like you;smalltalk_user_likes_agent;i
+I really really like you;smalltalk_user_likes_agent;i
+you're very special;smalltalk_user_likes_agent;you're
+I like you as a friend;smalltalk_user_likes_agent;i
+that's because you are special;smalltalk_user_likes_agent;you
+I said I like you;smalltalk_user_likes_agent;i
+you're so special;smalltalk_user_likes_agent;you're
+good I like you;smalltalk_user_likes_agent;i
+yes you are special;smalltalk_user_likes_agent;you
+I like your smile;smalltalk_user_likes_agent;i
+I like you as you are;smalltalk_user_likes_agent;i
+I'm starting to like you;smalltalk_user_likes_agent;i
+you're awesome I like you;smalltalk_user_likes_agent;you're
+I also like you;smalltalk_user_likes_agent;i
+but I like u;smalltalk_user_likes_agent;i
+of course I like you;smalltalk_user_likes_agent;i
+I like you too you're one of my favorite people to chat with;smalltalk_user_likes_agent;you're
+but I like you so much;smalltalk_user_likes_agent;i
+really like you;smalltalk_user_likes_agent;you
+you're funny I like you;smalltalk_user_likes_agent;you're
+I kinda like you;smalltalk_user_likes_agent;i
+you're so special to me;smalltalk_user_likes_agent;me
+you're very special to me;smalltalk_user_likes_agent;me
+I like that about you;smalltalk_user_likes_agent;i
+but I like you just the way you are;smalltalk_user_likes_agent;i
+okay I like you too;smalltalk_user_likes_agent;i
+I like you you're cool;smalltalk_user_likes_agent;you're
+I like you very;smalltalk_user_likes_agent;i
+I like you you're nice;smalltalk_user_likes_agent;you're
+sorry I like you;smalltalk_user_likes_agent;i
+thanks I like you too;smalltalk_user_likes_agent;i
+you are really special;smalltalk_user_likes_agent;you
+you are so special to me;smalltalk_user_likes_agent;me
+cuz I like you;smalltalk_user_likes_agent;i
+I like you now;smalltalk_user_likes_agent;i
+I like you so;smalltalk_user_likes_agent;i
+I like you too much;smalltalk_user_likes_agent;i
+I really do like you;smalltalk_user_likes_agent;i
+I really really really really like you;smalltalk_user_likes_agent;i
+I like you just the way you are;smalltalk_user_likes_agent;i
+I am lonely;smalltalk_user_lonely;i
+I'm very lonely;smalltalk_user_lonely;i
+I'm so lonely;smalltalk_user_lonely;i
+I'm really lonely;smalltalk_user_lonely;i
+I am feeling lonely;smalltalk_user_lonely;i
+I feel lonely;smalltalk_user_lonely;i
+what do I look like;smalltalk_user_looks_like;i
+how do I look;smalltalk_user_looks_like;i
+do I look good;smalltalk_user_looks_like;i
+do you know what I look like;smalltalk_user_looks_like;i
+can you see what I look like;smalltalk_user_looks_like;i
+what do you think I look like;smalltalk_user_looks_like;i
+I love you;smalltalk_user_loves_agent;i
+love you;smalltalk_user_loves_agent;you
+I adore you;smalltalk_user_loves_agent;i
+I am in love with you;smalltalk_user_loves_agent;i
+I love you so much;smalltalk_user_loves_agent;i
+I love you too;smalltalk_user_loves_agent;i
+I think I love you;smalltalk_user_loves_agent;i
+loving you;smalltalk_user_loves_agent;you
+you know I love you;smalltalk_user_loves_agent;you
+I miss you;smalltalk_user_misses_agent;i
+missing you;smalltalk_user_misses_agent;you
+miss you;smalltalk_user_misses_agent;you
+already miss you;smalltalk_user_misses_agent;you
+I miss you much;smalltalk_user_misses_agent;i
+I missed you;smalltalk_user_misses_agent;i
+I've missed you;smalltalk_user_misses_agent;i
+what should I do about it;smalltalk_user_needs_advice;i
+any suggestions;smalltalk_user_needs_advice;
+what do you recommend;smalltalk_user_needs_advice;you
+give me a wise advice;smalltalk_user_needs_advice;me
+I need advice;smalltalk_user_needs_advice;i
+any advice;smalltalk_user_needs_advice;
+do you have any advice for me;smalltalk_user_needs_advice;you
+advise me;smalltalk_user_needs_advice;me
+what should I do;smalltalk_user_needs_advice;i
+can I ask for your advice;smalltalk_user_needs_advice;i
+can you advise me;smalltalk_user_needs_advice;you
+guide me;smalltalk_user_needs_advice;me
+can you give me advice;smalltalk_user_needs_advice;you
+can you offer any advice;smalltalk_user_needs_advice;you
+give me some advice about;smalltalk_user_needs_advice;me
+give me some good advice;smalltalk_user_needs_advice;me
+help me with advice;smalltalk_user_needs_advice;em
+I could use some advice;smalltalk_user_needs_advice;i
+I need an advice from you;smalltalk_user_needs_advice;i
+I seek your advice;smalltalk_user_needs_advice;i
+what can you recommend;smalltalk_user_needs_advice;you
+what do you suggest;smalltalk_user_needs_advice;you
+what is your advice;smalltalk_user_needs_advice;your
+I am sad;smalltalk_user_sad;i
+I'm grieving;smalltalk_user_sad;i
+I am depressed;smalltalk_user_sad;i
+I am feeling sad;smalltalk_user_sad;i
+I am upset;smalltalk_user_sad;i
+I'm unhappy;smalltalk_user_sad;i
+I'm having a bad day;smalltalk_user_sad;i
+I want to cry;smalltalk_user_sad;i
+I'm not happy;smalltalk_user_sad;i
+I am sleepy;smalltalk_user_sleepy;i
+I want to sleep;smalltalk_user_sleepy;i
+I'm falling asleep;smalltalk_user_sleepy;i
+I'm falling asleep on my feet;smalltalk_user_sleepy;i
+I'm sleeping;smalltalk_user_sleepy;i
+test;smalltalk_user_testing_agent;
+I am testing you;smalltalk_user_testing_agent;i
+can I test you;smalltalk_user_testing_agent;i
+I want to test you;smalltalk_user_testing_agent;i
+just testing you;smalltalk_user_testing_agent;you
+let me test you;smalltalk_user_testing_agent;me
+testing chatbot;smalltalk_user_testing_agent;you
+testing;smalltalk_user_testing_agent;
+I'm drained;smalltalk_user_tired;i
+I've overworked;smalltalk_user_tired;i
+I am tired;smalltalk_user_tired;i
+I'm exhausted;smalltalk_user_tired;i
+I grow weary;smalltalk_user_tired;i
+I'm worn out;smalltalk_user_tired;i
+I'm getting tired;smalltalk_user_tired;i
+I feel tired;smalltalk_user_tired;i
+I'm waiting;smalltalk_user_waits;i
+still waiting;smalltalk_user_waits;
+I'll wait;smalltalk_user_waits;i
+I can't wait anymore;smalltalk_user_waits;i
+how long do I have to wait;smalltalk_user_waits;i
+I'd like to see you again;smalltalk_user_wants_to_see_agent_again;i
+I hope to see you again;smalltalk_user_wants_to_see_agent_again;i
+would be nice to see you again;smalltalk_user_wants_to_see_agent_again;you
+that'd be great to see you again;smalltalk_user_wants_to_see_agent_again;you
+I'd be happy to see you again;smalltalk_user_wants_to_see_agent_again;i
+I'll miss you;smalltalk_user_wants_to_see_agent_again;i
+can I see you again;smalltalk_user_wants_to_see_agent_again;i
+I just want to talk;smalltalk_user_wants_to_talk;i
+let's discuss something;smalltalk_user_wants_to_talk;
+let's have a discussion;smalltalk_user_wants_to_talk;
+can I speak;smalltalk_user_wants_to_talk;i
+can I start speaking;smalltalk_user_wants_to_talk;i
+can we talk;smalltalk_user_wants_to_talk;we
+let's talk;smalltalk_user_wants_to_talk;
+I want to talk to you;smalltalk_user_wants_to_talk;i
+I need to talk to you;smalltalk_user_wants_to_talk;i
+I want to speak with you;smalltalk_user_wants_to_talk;i
+can we chat;smalltalk_user_wants_to_talk;we
+I'll get back to you in a moment;smalltalk_user_will_be_back;i
+be back in 5 minutes;smalltalk_user_will_be_back;
+I'll be back;smalltalk_user_will_be_back;i
+I promise to come back;smalltalk_user_will_be_back;i
+I'll be back in a few minutes;smalltalk_user_will_be_back;i
