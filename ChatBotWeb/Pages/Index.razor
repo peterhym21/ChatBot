@@ -8,27 +8,27 @@
 
 <div class="row text-center">
     <div class="col-6">
-        <RadzenTextArea @bind-Value="@tekst" />
+        <RadzenTextArea Cols="100" Rows="6" class="rz-shadow-10" @bind-Value="@tekst" />
     </div>
     <div class="col-6">
-        <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
+        <RadzenButton class="rz-shadow-5 rz-ripple" ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
     </div>
-
+    <br />
     @if (predictionResultFocusarea != null && predictionResultIntent != null)
     {
         <div class="row">
             <div class="col-6">
                 <RadzenCard>
-                    <RadzenLabel Text="Intent: " />
-                    <RadzenLabel Text="@predictionResultIntent.PredictedLabel" />
-                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalIntent">Was the Intent worng?</RadzenButton>
+                    <RadzenLabel Text="Intent: " /> <br/>
+                    <RadzenLabel Text="@predictionResultIntent.PredictedLabel" /> <br /><br />
+                    <RadzenButton class="rz-ripple" ButtonStyle="ButtonStyle.Primary" Click="@ShowModalIntent">Was the Intent worng?</RadzenButton>
                 </RadzenCard>
             </div>
             <div class="col-6">
                 <RadzenCard>
-                    <RadzenLabel Text="FocusArea: " />
-                    <RadzenLabel Text="@predictionResultFocusarea.PredictedLabel" />
-                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalFocusArea">Was the FocusArea worng?</RadzenButton>
+                    <RadzenLabel Text="FocusArea: " /> <br />
+                    <RadzenLabel Text="@predictionResultFocusarea.PredictedLabel" /> <br /><br />
+                    <RadzenButton class="rz-ripple" ButtonStyle="ButtonStyle.Primary" Click="@ShowModalFocusArea">Was the FocusArea worng?</RadzenButton>
                 </RadzenCard>
             </div>
         </div>
