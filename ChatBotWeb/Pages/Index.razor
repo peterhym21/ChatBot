@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using ChatBotWeb.Data
 @using MLModelFocusArea3
 @using MLModelIntent2
 @using System.Text
@@ -10,10 +11,19 @@
     <div class="col-6">
         <RadzenTextArea Cols="100" Rows="6" class="rz-shadow-10" @bind-Value="@tekst" />
     </div>
-    <div class="col-6">
+    <div class="col-3">
         <RadzenButton class="rz-shadow-5 rz-ripple" ButtonStyle="ButtonStyle.Primary" Click="@GetIntentAndFocusArea">Submit</RadzenButton>
     </div>
+    <div class="col-3">
+        <RadzenCard>
+            <RadzenLabel Text="The Chatbot Response" /><br />
+            <RadzenLabel Text="@chatbotResponds"/>
+        </RadzenCard>
+    </div>
     <br />
+
+
+
     @if (predictionResultFocusarea != null && predictionResultIntent != null)
     {
         <div class="row">
@@ -66,7 +76,7 @@
         <ModalBody>
             <Field>
                 <FieldLabel>FocusArea</FieldLabel>
-                <TextEdit @bind-Text="@foucsArea" Placeholder="Enter focusArea..." />
+                <TextEdit @bind-Text="@focusArea" Placeholder="Enter focusArea..." />
             </Field>
 
         </ModalBody>
@@ -83,9 +93,58 @@
     private Modal modalFocusArea;
     private string tekst = string.Empty;
     private string intent = string.Empty;
-    private string foucsArea = string.Empty;
+    private string focusArea = string.Empty;
     private MLModelIntent1.ModelOutput? predictionResultIntent;
     private MLModelFocusArea1.ModelOutput predictionResultFocusarea;
+
+    private string chatbotResponds = string.Empty;
+
+    List<ChatbotGroup> chatbotGroups = new();
+    List<string> chatbotGroupNames = new();
+    List<ChatbotText> chatbotTexts = new();
+
+
+    protected override void OnInitialized()
+    {
+        using (var reader = new StreamReader(@"C:\Users\peter\Downloads\archive\ChatbotGroups.csv"))
+        {
+
+            while (!reader.EndOfStream)
+            {
+                var line = reader.ReadLine();
+
+                chatbotGroupNames.Add(line);
+            }
+        }
+
+        using (var reader = new StreamReader(@"C:\Users\peter\Downloads\archive\ChatBot_Anwser.csv"))
+        {
+            while (!reader.EndOfStream)
+            {
+                ChatbotText text = new();
+                var line = reader.ReadLine();
+                var values = line.Split(';');
+
+                text.Utterances = values[0];
+                text.Intent = values[1];
+                text.FocusArea = values[2];
+
+                chatbotTexts.Add(text);
+
+            }
+        }
+
+        foreach (var item in chatbotGroupNames)
+        {
+            ChatbotGroup chatbot = new();
+            chatbot.IntentGroup = item;
+            chatbot.Text = chatbotTexts.Where(x => x.Intent == item).ToList();
+            chatbotGroups.Add(chatbot);
+
+        }
+
+
+    }
 
 
 
@@ -95,17 +154,31 @@
             {
                 Utterances = tekst,
             };
-
-        // Make a single prediction on the sample data and print results
         predictionResultIntent = MLModelIntent1.Predict(sampleDataIntent);
 
         MLModelFocusArea1.ModelInput sampleDataFocusarea = new MLModelFocusArea1.ModelInput()
             {
                 Utterances = tekst,
             };
-
-        // Make a single prediction on the sample data and print results
         predictionResultFocusarea = MLModelFocusArea1.Predict(sampleDataFocusarea);
+
+
+
+        foreach (var item in chatbotGroups)
+        {
+            if (item.IntentGroup == predictionResultIntent.PredictedLabel)
+            {
+                foreach (var text in item.Text)
+                {
+                    if (text.FocusArea == predictionResultFocusarea.PredictedLabel)
+                    {
+                        chatbotResponds = text.Utterances;
+                        return;
+                    }
+                }
+            }
+        }
+
 
     }
 
@@ -129,7 +202,7 @@
         string filePath = @"C:\Users\peter\Downloads\archive\Small_talk_FocusArea_userdata.csv";
 
         StringBuilder sb = new StringBuilder();
-        sb.AppendLine($"{tekst},{foucsArea},{predictionResultFocusarea.PredictedLabel}");
+        sb.AppendLine($"{tekst},{focusArea},{predictionResultFocusarea.PredictedLabel}");
 
         File.AppendAllText(filePath, sb.ToString());
         HideModalFocusArea();
