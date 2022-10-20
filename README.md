@@ -9,4 +9,6 @@ Lav en del af chatboten til smalltalk
 
 ### datasæt
 
+https://www.kaggle.com/datasets/salmanfaroz/small-talk-intent-classification-data
+
 
