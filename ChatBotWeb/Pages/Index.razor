@@ -1,6 +1,7 @@
 ﻿@page "/"
 @using MLModelFocusArea3
 @using MLModelIntent2
+@using System.Text
 
 
 <PageTitle>Index</PageTitle>
@@ -27,7 +28,7 @@
                 <RadzenCard>
                     <RadzenLabel Text="FocusArea: " />
                     <RadzenLabel Text="@predictionResultFocusarea.PredictedLabel" />
-                        <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalFocusArea">Was the FocusArea worng?</RadzenButton>
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" Click="@ShowModalFocusArea">Was the FocusArea worng?</RadzenButton>
                 </RadzenCard>
             </div>
         </div>
@@ -46,12 +47,12 @@
         <ModalBody>
             <Field>
                 <FieldLabel>Intent</FieldLabel>
-                <TextEdit Placeholder="Enter intent..." />
+                <TextEdit @bind-Text="@intent" Placeholder="Enter intent..." />
             </Field>
         </ModalBody>
         <ModalFooter>
-            <Button Color="Color.Secondary" Clicked="@ShowModalIntent">Close</Button>
-            <Button Color="Color.Primary" Clicked="@HideModalIntent">Save Changes</Button>
+            <Button Color="Color.Secondary" Clicked="@HideModalIntent">Close</Button>
+            <Button Color="Color.Primary" Clicked="@SaveModalIntent">Save Changes</Button>
         </ModalFooter>
     </ModalContent>
 </Modal>
@@ -65,13 +66,13 @@
         <ModalBody>
             <Field>
                 <FieldLabel>FocusArea</FieldLabel>
-                <TextEdit Placeholder="Enter focusArea..." />
+                <TextEdit @bind-Text="@foucsArea" Placeholder="Enter focusArea..." />
             </Field>
 
         </ModalBody>
         <ModalFooter>
-            <Button Color="Color.Secondary" Clicked="@ShowModalFocusArea">Close</Button>
-            <Button Color="Color.Primary" Clicked="@HideModalFocusArea">Save Changes</Button>
+            <Button Color="Color.Secondary" Clicked="@HideModalFocusArea">Close</Button>
+            <Button Color="Color.Primary" Clicked="@SaveModalFocusArea">Save Changes</Button>
         </ModalFooter>
     </ModalContent>
 </Modal>
@@ -81,8 +82,11 @@
     private Modal modalIntent;
     private Modal modalFocusArea;
     private string tekst = string.Empty;
+    private string intent = string.Empty;
+    private string foucsArea = string.Empty;
     private MLModelIntent1.ModelOutput? predictionResultIntent;
     private MLModelFocusArea1.ModelOutput predictionResultFocusarea;
+
 
 
     private async Task GetIntentAndFocusArea()
@@ -107,9 +111,29 @@
 
     private Task ShowModalIntent() => modalIntent.Show();
     private Task HideModalIntent() => modalIntent.Hide();
+    private async Task SaveModalIntent()
+    {
+        string filePath = @"C:\Users\peter\Downloads\archive\Small_talk_Intent_userdate.csv";
+
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine($"{tekst},{intent},{predictionResultIntent.PredictedLabel}");
+
+        File.AppendAllText(filePath, sb.ToString());
+        HideModalIntent();
+    }
 
     private Task ShowModalFocusArea() => modalFocusArea.Show();
     private Task HideModalFocusArea() => modalFocusArea.Hide();
+    private async Task SaveModalFocusArea()
+    {
+        string filePath = @"C:\Users\peter\Downloads\archive\Small_talk_FocusArea_userdata.csv";
+
+        StringBuilder sb = new StringBuilder();
+        sb.AppendLine($"{tekst},{foucsArea},{predictionResultFocusarea.PredictedLabel}");
+
+        File.AppendAllText(filePath, sb.ToString());
+        HideModalFocusArea();
+    }
 
 
 }
