@@ -40,13 +40,15 @@ I will be traying 3-4 genarations byt tringing with the full set, top half and b
 
 ## Trainging Algorithems
 
-For Intent the Trainging Algorithem used is: 
+For Intent the Trainging Algorithem used is: <br/>
 LbfgsMaximumEntropyMulti
 
 for more information see:
 [LbfgsMaximumEntropyMulti](https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet)
 
-For FocusArea the Trainging Algorithem used is:
+<br/>
+
+For FocusArea the Trainging Algorithem used is: <br/>
 LightGbmMulti
 
 for more information see:
