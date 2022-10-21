@@ -59,6 +59,37 @@ for more information see:
 <br/>
 
 
+## FolderStrukture
+
+´´´
+
+C:.
+├───ChatBotWeb
+│   ├───Data
+│   ├───Pages
+│   ├───Properties
+│   ├───Shared
+│   └───wwwroot
+│       
+├───Dataset
+├───MLModelFocusArea
+│   
+├───MLModelFocusArea1
+│   
+├───MLModelFocusArea2
+│   
+├───MLModelFocusArea3
+│   
+├───MLModelIntent
+│   
+├───MLModelIntent1
+│  
+└───MLModelIntent2
+
+´´´
+
+
+
 ## Librarys
 
 ### ChatBotWeb
