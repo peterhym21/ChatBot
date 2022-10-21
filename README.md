@@ -33,6 +33,9 @@ https://www.kaggle.com/datasets/salmanfaroz/small-talk-intent-classification-dat
 I have further the data by soring it and, making a new coloum called FocusArea for the secound ML
 and i will lastly make a csv file with the repsonses acouding to Intent and FocusAreas
 
+I will be traying 3-4 genarations byt tringing with the full set, top half and bottom half of the dataset
+
+
 
 
 ## Librarys
