@@ -59,11 +59,10 @@ for more information see:
 <br/>
 
 
-## FolderStrukture
+## Folder Strukture
 
-´´´
+```
 
-C:.
 ├───ChatBotWeb
 │   ├───Data
 │   ├───Pages
@@ -86,7 +85,7 @@ C:.
 │  
 └───MLModelIntent2
 
-´´´
+```
 
 
 
