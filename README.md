@@ -27,15 +27,34 @@ this will be done with 2 ML's that will have at least 2 generations
 
 ### Dataset
 
-This is the Main Dataset that will be used
-https://www.kaggle.com/datasets/salmanfaroz/small-talk-intent-classification-data
+This is the Main Dataset that will be used:
+
+[Main Dataset](https://www.kaggle.com/datasets/salmanfaroz/small-talk-intent-classification-data)
 
 I have further the data by soring it and, making a new coloum called FocusArea for the secound ML
 and i will lastly make a csv file with the repsonses acouding to Intent and FocusAreas
 
 I will be traying 3-4 genarations byt tringing with the full set, top half and bottom half of the dataset
 
+<br/>
 
+## Trainging Algorithems
+
+For Intent the Trainging Algorithem used is: 
+LbfgsMaximumEntropyMulti
+
+for more information see:
+[LbfgsMaximumEntropyMulti](https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lbfgsmaximumentropymulticlasstrainer?view=ml-dotnet)
+
+For FocusArea the Trainging Algorithem used is:
+LightGbmMulti
+
+for more information see:
+[LightGbmMulti](https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.trainers.lightgbm.lightgbmmulticlasstrainer?view=ml-dotnet)
+
+
+<br/>
+<br/>
 
 
 ## Librarys
@@ -47,11 +66,13 @@ I will be traying 3-4 genarations byt tringing with the full set, top half and b
 | Blazorise.Icons.FontAwesome | 1.1.1   |
 | Radzen.Blazor               | 4.1.9   |
 
+<br/>
 
 ### MLModelFocusArea
 | Name | Version |
 | :--- | :------ |
 
+<br/>
 
 ### MLModelFocusArea1
 | Name                  | Version |
@@ -59,12 +80,14 @@ I will be traying 3-4 genarations byt tringing with the full set, top half and b
 | Microsoft.ML          | 1.7.1   |
 | Microsoft.ML.FastTree | 1.7.1   |
 
+<br/>
 
 ### MLModelFocusArea2
 | Name         | Version |
 | :----------- | :------ |
 | Microsoft.ML | 1.7.1   |
 
+<br/>
 
 ### MLModelFocusArea3
 | Name                  | Version |
@@ -72,6 +95,7 @@ I will be traying 3-4 genarations byt tringing with the full set, top half and b
 | Microsoft.ML          | 1.7.1   |
 | Microsoft.ML.LightGbm | 1.7.1   |
 
+<br/>
 
 ### MLModelFocusArea4_API
 | Name                    | Version |
@@ -81,23 +105,27 @@ I will be traying 3-4 genarations byt tringing with the full set, top half and b
 | Microsoft.ML            | 1.7.1   |
 | Microsoft.ML.LightGbm   | 1.7.1   |
 
+<br/>
 
 ### MLModelIntent
 | Name | Version |
 | :--- | :------ |
 
+<br/>
 
 ### MLModelIntent1
 | Name         | Version |
 | :----------- | :------ |
 | Microsoft.ML | 1.7.1   |
 
+<br/>
 
 ### MLModelIntent2
 | Name         | Version |
 | :----------- | :------ |
 | Microsoft.ML | 1.7.1   |
 
+<br/>
 
 ### MLModelIntent3_API
 | Name                    | Version |
